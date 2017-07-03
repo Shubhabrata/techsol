@@ -1,0 +1,240 @@
+<header class="container-fluid">
+  <div class="header-container row">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="row">
+            <div class="logo pull-left"></div>
+            <div class="search-container pull-left">
+              <input type="text" class="search-box" placeholder="Search" /><button type="button" class="search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+            <div class="desktop-nav pull-right">
+              <div class="nav-top">
+                <ul>
+                  <li><a href="#">About Techsol</a></li>
+                  <li><a href="#">Contach Us</a></li>
+                </ul>
+              </div>
+              <div class="nav-bottom">
+                <ul>
+                  <li [class.show-nav]="productsMouseOvered" (mouseover)="productsMouseOvered=true; servicesMouseOvered=false"><a href="#" class="nav-link">Product <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                    <div class="nav-details-container" (mouseleave)="productsMouseOvered=false; servicesMouseOvered=false">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-md-3 row">
+                            <div class="whats-new-section ">
+                              <strong><span class="whats-new-head">What's New</span></strong>
+                              <ul>
+                                <li class="no-click-close">
+                                  <a href="#" class="no-click-close"><strong>Making GST work for you</strong>
+                                  <p>GST learning program includes GST readiness, e-learning, and our GSP offering</p></a>
+                                </li>
+                                <li class="no-click-close">
+                                  <a href="#" class="no-click-close">
+                                    <strong>Deloitte Human Capital Trends 2017</strong>
+                                    <p>Rewriting the rules for the digital age</p>
+                                  </a>
+                                </li>
+                                <li class="no-click-close">
+                                  <a href="#" class="no-click-close"> <strong>Union Budget 2017</strong>
+                                    <p>A comprehensive analysis of the proposed budgetary reforms and their impact</p>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-9 nav-items">
+                            <div class="col-md-3">
+                              <div class="nav-item-head">
+                                Transformer
+                              </div>
+                              <ul>
+                                <li><a href="#">Power Transformer</a></li>
+                                <li><a href="#">Distribution Transformer</a></li>
+                                <li><a href="#">Special Type Transformer</a></li>
+                                <li><a href="#">Dry Type Transformer</a></li>
+                                <li><a href="#">Green Transformer</a></li>
+                                <li><a href="#">Isolation Transformer</a></li>
+                                <li><a href="#">Auto Transformer</a></li>
+                                <li><a href="#">Earthing Transformer</a></li>
+                                <li><a href="#">Furnace Transformer</a></li>
+                                <li><a href="#">Rectifier Transformer</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-md-3">
+                              <div class="nav-item-head">
+                                Switch Gear
+                              </div>
+                              <ul>
+                                <li><a href="#">HV Switch Gear</a></li>
+                                <li><a href="#">MV Switch Gear</a></li>
+                                <li><a href="#">LV Switch Gear</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-md-3">
+                              <div class="nav-item-head">
+                                Distribution Board
+                              </div>
+                              <ul>
+                                <li><a href="#">MCCB Distribution Board</a></li>
+                                <li><a href="#">Final Distribution Board</a></li>
+                                <li><a href="#">Power Factor Correction</a></li>
+                                <li><a href="#">Changeover Panels</a></li>
+                                <li><a href="#">Enclosed Switchgear</a></li>
+                              </ul>
+
+                              <div class="nav-item-head">
+                                Control Panels
+                              </div>
+                              <ul>
+                                <li><a href="#">Synchronization Panel</a></li>
+                                <li><a href="#">Industrial Control Panel</a></li>
+                                <li><a href="#">Motor Control Panel</a></li>
+                                <li><a href="#">Generator Control Panels</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-md-3">
+                              <div class="nav-item-head">
+                                More Products
+                              </div>
+                              <ul>
+                                <li><a href="#">Generators</a></li>
+                                <li><a href="#">Static AVR</a></li>
+                                <li><a href="#">Surge and Lightning Protection System</a></li>
+                                <li><a href="#">Solar System</a></li>
+                                <li><a href="#">Sub-Station</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li [class.show-nav]="servicesMouseOvered" (mouseover)="servicesMouseOvered=true; productsMouseOvered=false;"><a href="#"  class="nav-link">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                    <div class="nav-details-container" (mouseleave)="productsMouseOvered=false; servicesMouseOvered=false">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-md-3 row">
+                            <div class="whats-new-section ">
+                              <strong><span class="whats-new-head">What's New</span></strong>
+                              <ul>
+                                <li class="no-click-close">
+                                  <a href="#" class="no-click-close"><strong>Making GST work for you</strong>
+                                  <p>GST learning program includes GST readiness, e-learning, and our GSP offering</p></a>
+                                </li>
+                                <li class="no-click-close">
+                                  <a href="#" class="no-click-close">
+                                    <strong>Deloitte Human Capital Trends 2017</strong>
+                                    <p>Rewriting the rules for the digital age</p>
+                                  </a>
+                                </li>
+                                <li class="no-click-close">
+                                  <a href="#" class="no-click-close"> <strong>Union Budget 2017</strong>
+                                    <p>A comprehensive analysis of the proposed budgetary reforms and their impact</p>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-9 nav-items">
+                            <div class="col-md-4">
+                              <div class="nav-item-head">
+                                <a href="#">Engineering, Procurement, and Construction (EPC)</a>
+                              </div>
+                              <div class="nav-item-head">
+                                <a href="#">Engineering and Consultancy</a>
+                              </div>
+                              <div class="nav-item-head">
+                                <a href="#">Turnkey Services</a>
+                              </div>
+                              <div class="nav-item-head">
+                                <a href="#">Emergency Service and Support</a>
+                              </div>
+                              <div class="nav-item-head">
+                                Installation
+                              </div>
+                              <ul>
+                                <li><a href="#">Sub-station Installation</a></li>
+                                <li><a href="#">Generator Installation</a></li>
+                                <li><a href="#">Power Plant Installation and Erection</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-md-4">
+                              <div class="nav-item-head">
+                                Maintenance
+                              </div>
+                              <ul>
+                                <li><a href="#">Substation Maintenance</a></li>
+                                <li><a href="#">Substation Servicing</a></li>
+                                <li><a href="#">Transformar Maintenance</a></li>
+                                <li><a href="#">Transformer Servicing</a></li>
+                                <li><a href="#">Switch Gear Maintenance</a></li>
+                              </ul>
+                              <div class="nav-item-head">
+                                Repeating
+                              </div>
+                              <ul>
+                                <li><a href="#">Transformer Repeating</a></li>
+                                <li><a href="#">Switch Gear Modification</a></li>
+                                <li><a href="#">Generator Repeating</a></li>
+                              </ul>                              
+                            </div>
+                            <div class="col-md-4">
+                              <div class="nav-item-head">
+                                <a href="#">Site Testing and Commissioning</a>
+                              </div>
+                              <div class="nav-item-head">
+                                <a href="#">Project Management</a>
+                              </div>
+                              <div class="nav-item-head">
+                                <a href="#">Network Design</a>
+                              </div>
+                              <div class="nav-item-head">
+                                <a href="#">Discrimination Studies</a>
+                              </div>
+                              <div class="nav-item-head">
+                                <a href="#">Power Quality Analysis</a>
+                              </div>
+                              <div class="nav-item-head">
+                                <a href="#">Thermal Imaging Surveys</a>
+                              </div>
+                              <div class="nav-item-head">
+                                <a href="#">Generator Hire and Connection</a>
+                              </div>
+                              <div class="nav-item-head">
+                                <a href="#">Health and Safety</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li><a href="#">Important Link</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="the-page">
+  <router-outlet></router-outlet>
+</div>
+<footer>
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <li><a [routerLink]="['about']">About Us</a></li>
+        <li><a [routerLink]="['about']">Gallery</a></li>
+        <li><a [routerLink]="['about']">Contact</a></li>
+        <li><a [routerLink]="['about']">Quality</a></li>
+        <li><a [routerLink]="['about']">Clients</a></li>
+        <li><a [routerLink]="['about']">Infrastructure</a></li>
+      </div>
+    </div>
+  </div>
+</footer>

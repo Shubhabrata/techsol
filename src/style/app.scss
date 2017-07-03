@@ -1,0 +1,134 @@
+// styles in src/style directory are applied to the whole page
+body {
+    
+    //background: url(/img/page-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1900px;
+    background-position: 50% 0;
+    background-color: #E8EAE9 !important;
+    background-size: 100%;    
+    
+    
+}
+body{
+  font-family: 'Open Sans', sans-serif !important;
+}
+.container{
+    background-color: #FFFFFF;
+}
+a {
+}
+.img-full-width{
+    width: 100%;
+}
+
+.heading-light, .heading-dark{
+    display: block;
+}
+.heading-light{
+    font-size: 3.8rem;
+    letter-spacing: -0.25rem;
+    color: #a5a5a5;
+}
+
+.heading-dark{
+    font-size: 4.9rem;
+        
+}
+.heading-dark, h4{
+    color: #008395;
+    }
+h4{
+font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    }
+p{
+    line-height: 27px;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;    
+}
+.side-heading{
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    margin-top: 370px;
+    width: 600px;
+    font-size: 5rem;
+    text-align: right;
+    position: absolute;
+    margin-left: -171px;
+}
+.top-space{
+    margin-top: 100px;
+}
+.bottom-space{
+    margin-bottom: 100px;
+}
+.bottom-space-35{
+    margin-bottom: 35px;
+}
+.the-page{
+        top: 86px;
+        position: relative;
+}
+
+
+
+.page-head {
+    background: #000;
+    .topic-img {
+        padding: 0px 0 35px 0;
+    }
+    .head-container {
+        background-repeat: no-repeat;
+        background-position-x: right;
+        opacity: 1 !important;
+        top: 0 !important;
+        min-height: 300px;
+        position: relative;
+        background-position: right top;
+        background-size: cover;
+    }
+    .container {
+        background-repeat: no-repeat;
+        background-position-x: right;
+        opacity: 1 !important;
+        top: 0 !important;
+        //min-height: 300px;
+        position: relative;
+        background-position: right top;
+        background-size: cover;
+        background: #000000;
+        .topic-description {
+            //min-height: 300px;
+            bottom: 0;
+            padding: 20px 0;
+            z-index: 1;
+            background: rgba(0, 0, 0, 0.8);
+            h1 {
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 1.2;
+                color: #fff;
+                margin-bottom: 22px;
+            }
+            p {
+                color: #fff;
+                line-height: 23px;
+                font-size: 16px;
+            }
+        }
+    }
+}

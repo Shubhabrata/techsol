@@ -1,0 +1,360 @@
+// styles applied on :host are applied on the current component, "app" in this case
+:host {
+  display: block;
+}
+header {
+  .logo{
+    background: url('../img/logo.png');
+    height: 52px;
+    width: 220px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 17px 0;      
+  }
+  .message{
+    text-align: right;
+  }
+  .message-logo{
+    height: 36px;
+    width: 100px;
+    background: url(../img/iso.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 12px 0;
+    display: inline-block;    
+  }
+}
+
+main {
+}
+
+footer {
+}
+
+header.container-fluid{
+    background: url(../img/page-header-bg.jpg);
+    background-size: cover;
+}
+header .header-container{
+  background-color: rgba(255,255,255,0.7);
+}
+
+header .container{
+      background:none;
+    }
+
+
+@media (min-width: 768px){
+.navbar-nav > li > a    {
+    padding: 9px;
+    color: black;
+    font-weight: 200;
+    letter-spacing: 0.2em;
+    font-size: 1.5rem;
+    margin-right: 30px;  
+}
+.navbar.navbar-default{
+        min-height: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 0;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #FFFFFF;
+    border-radius: 0;
+    border-bottom: 1px solid #FFFFFF;
+    height: 40px;  
+}
+}
+
+.navbar-nav a{
+  padding:10px;
+}
+.navbar-nav > li > a:hover{
+  background-color: rgba(255,255,255,0.8)
+}
+
+.dropdown-menu{
+  background-color: rgba(255,255,255,.9);
+
+}
+
+footer{
+  background-color: #073351;
+  min-height: 500px;
+  color: #AAAAAA; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #000000;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+}
+
+
+
+
+.dropdown-menu > li > a{
+  padding:3px 20px;
+}
+.navbar-nav > li  .dropdown-menu{
+  border-radius: 0;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+  background-color:#008395;
+  color:#FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* new design */
+
+header .header-container{
+  background-color: #000000;
+}
+
+
+.search-container{
+
+}
+.logo{
+  width: 24.5%;
+    height: 70px;
+}
+.search-container{
+  margin: 23px 0 0 100px;
+}
+.desktop-nav{
+  .nav-top, .nav-bottom{
+    clear: both;
+    ul{
+      float: right;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+    }
+    .nav-item-head{
+      color: #00b6cf;
+      font-size: 20px;
+      font-weight: 100;
+      a{
+        color:#ffffff;
+        text-decoration: none;
+      }
+      a:hover{
+        color:#EB2A2E;
+      }
+    }
+    .nav-items{
+      ul{ 
+        li{
+          display: inline;
+          width: 100%;
+          padding: 0;
+          margin: 4px 0;
+          a{
+            color:#ffffff;
+            font-size: 13px;
+            text-decoration: none;
+          }
+          a:hover{
+            color:#EB2A2E;
+          }
+        }
+      }
+    }
+    li{
+      display: block;
+      float: left;
+      margin: 5px 10px;
+      a{
+        font-size: 11px;
+        color: #FFFFFF;
+      }
+    }
+  }
+  .nav-bottom{
+    li{
+      a{
+        font-size: 18px;
+      }
+    }
+    
+  }
+  .nav-top{
+    margin-top: 10px;
+  }
+}
+
+.show-nav{    
+      border-bottom: 2px solid #00b6cf;
+      height: 41px;
+      margin-bottom: 0;      
+    }
+.show-nav >a{
+  color: #00b6cf !important;
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+a.nav-link{
+  letter-spacing: 0.06em;
+}
+.search-container{
+  position: relative;
+  input{
+    background: #333;
+    width: 376px;
+    margin: 0;
+    border: 1px solid #75787b;
+    color: #fff;
+    padding: .5em 10% .5em 3%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+    font-size: 16px;
+    height: 36px;
+    position: relative;
+  }
+  .search-button{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    font-size: 18px;
+    color: #dfdfdf;
+    text-align: center;
+    top: 0;
+    background: #75787b;
+    width: 32px;
+    height: 100%;
+    line-height: 31px;
+    border: transparent;
+  }
+}
+header{
+    background: #000;
+    width: 100%;
+    position: fixed;
+    z-index: 1500;
+    text-align: center;
+
+}
+
+
+.show-nav .nav-details-container{
+      opacity: 1;
+      visibility: visible;
+    }
+.nav-details-container {
+    position: fixed;
+    text-align: left;
+    top: 86px;
+    left: 0;
+    right: 0;
+    background-color: #393939;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;    
+    visibility: hidden;
+    
+    .whats-new-section strong {
+        padding-left: 4%;
+        padding-right: 4%;
+        font-size: 16px;
+        color: #00b6cf;
+    }
+    .whats-new-section ul li strong {
+        color: #ffffff;
+        color: #fff;
+        padding-left: 0;
+        font-weight: normal;
+    }
+    .whats-new-section ul li {
+        margin: 0 !important;
+        padding: 5px 10px !important;
+        border-bottom: 1px solid #333;
+    }
+    .whats-new-section ul li p {
+        font-size: 13px;
+        color: #d0d0ce;
+        padding-bottom: 10px;
+        margin: 0;
+        line-height: 1.4;
+    }
+    .whats-new-section ul li a {
+        text-decoration: none;
+    }
+}
+.whats-new-section {
+    background-color: #1C1C1C;
+    overflow: auto;
+}
+.whats-new-section ul li:hover {
+    background-color: #2C2C2C;
+}
+.whats-new-head {
+    padding-top: 7px;
+    display: inline-block;
+}
