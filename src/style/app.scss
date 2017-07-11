@@ -13,9 +13,6 @@ body {
 body{
   font-family: 'Open Sans', sans-serif !important;
 }
-.container{
-    background-color: #FFFFFF;
-}
 a {
 }
 .img-full-width{
@@ -130,5 +127,18 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
                 font-size: 16px;
             }
         }
+    }
+}
+
+
+.no-gap{
+    .row, [class*="col-"]{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .block{
+        background-color: #FFFFFF;
+        margin: 5px;
+        padding: 10px;     
     }
 }
