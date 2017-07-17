@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ApiService } from '../shared';
-import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'TS-serviceshome',
@@ -10,8 +8,6 @@ import { ActivatedRoute } from '@angular/router';
 export class ServicesHomeComponent implements OnInit {
 
   constructor(
-    private apiService: ApiService,
-    private route: ActivatedRoute
   ) { }
 
 
