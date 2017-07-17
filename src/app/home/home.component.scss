@@ -241,3 +241,31 @@ width: 174px;
 .page-head{
     min-height: 400px;
 }
+/*
+.block-type-1{
+    min-height: 550px;
+}
+.block-type-2{
+    min-height: 550px;
+}
+.block-type-3{
+    min-height: 550px;
+}
+.block-type-4{
+    min-height: 550px;
+}
+
+*/
+
+
+.outer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex:1;
+}
+
+.inner{
+  /* flex: 0 0 40px; */ 
+  flex: 1;
+}

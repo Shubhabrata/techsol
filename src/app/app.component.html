@@ -18,7 +18,7 @@
               </div>
               <div class="nav-bottom">
                 <ul>
-                  <li [class.show-nav]="productsMouseOvered" (mouseover)="productsMouseOvered=true; servicesMouseOvered=false"><a href="#" class="nav-link">Product <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                  <li [class.show-nav]="productsMouseOvered" (mouseover)="productsMouseOvered=true; servicesMouseOvered=false"><a href="#" [routerLink]="['products-home']" class="nav-link">Product <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                     <div class="nav-details-container" (mouseleave)="productsMouseOvered=false; servicesMouseOvered=false">
                       <div class="container">
                         <div class="row">
@@ -50,16 +50,16 @@
                                 Transformer
                               </div>
                               <ul>
-                                <li><a href="#">Power Transformer</a></li>
-                                <li><a href="#">Distribution Transformer</a></li>
-                                <li><a href="#">Special Type Transformer</a></li>
-                                <li><a href="#">Dry Type Transformer</a></li>
-                                <li><a href="#">Green Transformer</a></li>
-                                <li><a href="#">Isolation Transformer</a></li>
-                                <li><a href="#">Auto Transformer</a></li>
-                                <li><a href="#">Earthing Transformer</a></li>
-                                <li><a href="#">Furnace Transformer</a></li>
-                                <li><a href="#">Rectifier Transformer</a></li>
+                                <li><a [routerLink]="['/products', 'power-transformers']" >Power Transformer</a></li>
+                                <li><a [routerLink]="['/products', 'distribution-transformers']" href="#">Distribution Transformer</a></li>
+                                <li><a [routerLink]="['/products', 'special-type-transformers']" href="#">Special Type Transformer</a></li>
+                                <li><a [routerLink]="['/products', 'dry-type-transformers']" href="#">Dry Type Transformer</a></li>
+                                <li><a [routerLink]="['/products', 'green-transformers']" href="#">Green Transformer</a></li>
+                                <li><a [routerLink]="['/products', 'isolation-transformers']" href="#">Isolation Transformer</a></li>
+                                <li><a [routerLink]="['/products', 'auto-transformers']" href="#">Auto Transformer</a></li>
+                                <li><a [routerLink]="['/products', 'earthing-transformers']" href="#">Earthing Transformer</a></li>
+                                <li><a [routerLink]="['/products', 'furnace-transformers']" href="#">Furnace Transformer</a></li>
+                                <li><a [routerLink]="['/products', 'rectifier-transformers']" href="#">Rectifier Transformer</a></li>
                               </ul>
                             </div>
                             <div class="col-md-3">
@@ -67,9 +67,9 @@
                                 Switch Gear
                               </div>
                               <ul>
-                                <li><a href="#">HV Switch Gear</a></li>
-                                <li><a href="#">MV Switch Gear</a></li>
-                                <li><a href="#">LV Switch Gear</a></li>
+                                <li><a [routerLink]="['/products', 'hv-switch-gear']" href="#">HV Switch Gear</a></li>
+                                <li><a [routerLink]="['/products', 'mv-switch-gear']" href="#">MV Switch Gear</a></li>
+                                <li><a [routerLink]="['/products', 'lv-switch-gear']" href="#">LV Switch Gear</a></li>
                               </ul>
                             </div>
                             <div class="col-md-3">
@@ -77,21 +77,21 @@
                                 Distribution Board
                               </div>
                               <ul>
-                                <li><a href="#">MCCB Distribution Board</a></li>
-                                <li><a href="#">Final Distribution Board</a></li>
-                                <li><a href="#">Power Factor Correction</a></li>
-                                <li><a href="#">Changeover Panels</a></li>
-                                <li><a href="#">Enclosed Switchgear</a></li>
+                                <li><a [routerLink]="['/products', 'mccb-distribution-board']" href="#">MCCB Distribution Board</a></li>
+                                <li><a [routerLink]="['/products', 'final-distribution-board']" href="#">Final Distribution Board</a></li>
+                                <li><a [routerLink]="['/products', 'power-factor-correction']" href="#">Power Factor Correction</a></li>
+                                <li><a [routerLink]="['/products', 'changeover-panels']" href="#">Changeover Panels</a></li>
+                                <li><a [routerLink]="['/products', 'enclosed-switchgear']" href="#">Enclosed Switchgear</a></li>
                               </ul>
 
                               <div class="nav-item-head">
                                 Control Panels
                               </div>
                               <ul>
-                                <li><a href="#">Synchronization Panel</a></li>
-                                <li><a href="#">Industrial Control Panel</a></li>
-                                <li><a href="#">Motor Control Panel</a></li>
-                                <li><a href="#">Generator Control Panels</a></li>
+                                <li><a [routerLink]="['/products', 'synchronization-panel']" href="#">Synchronization Panel</a></li>
+                                <li><a [routerLink]="['/products', 'industrial-control-panel']" href="#">Industrial Control Panel</a></li>
+                                <li><a [routerLink]="['/products', 'motor-control-panel']" href="#">Motor Control Panel</a></li>
+                                <li><a [routerLink]="['/products', 'generator-control-panels']" href="#">Generator Control Panels</a></li>
                               </ul>
                             </div>
                             <div class="col-md-3">
@@ -99,11 +99,11 @@
                                 More Products
                               </div>
                               <ul>
-                                <li><a href="#">Generators</a></li>
-                                <li><a href="#">Static AVR</a></li>
-                                <li><a href="#">Surge and Lightning Protection System</a></li>
-                                <li><a href="#">Solar System</a></li>
-                                <li><a href="#">Sub-Station</a></li>
+                                <li><a [routerLink]="['/products', 'generators']" href="#">Generators</a></li>
+                                <li><a [routerLink]="['/products', 'static-avr']" href="#">Static AVR</a></li>
+                                <li><a [routerLink]="['/products', 'surge-and-lightning-protection-system']" href="#">Surge and Lightning Protection System</a></li>
+                                <li><a [routerLink]="['/products', 'solar-system']" href="#">Solar System</a></li>
+                                <li><a [routerLink]="['/products', 'sub-station']" href="#">Sub-Station</a></li>
                               </ul>
                             </div>
                           </div>
@@ -140,24 +140,24 @@
                           <div class="col-md-9 nav-items">
                             <div class="col-md-4">
                               <div class="nav-item-head">
-                                <a href="#">Engineering, Procurement, and Construction (EPC)</a>
+                                <a [routerLink]="['/services', 'engineering-procurement-and-construction-epc']" href="#">Engineering, Procurement, and Construction (EPC)</a>
                               </div>
                               <div class="nav-item-head">
-                                <a href="#">Engineering and Consultancy</a>
+                                <a [routerLink]="['/services', 'engineering-and-consultancy']" href="#">Engineering and Consultancy</a>
                               </div>
                               <div class="nav-item-head">
-                                <a href="#">Turnkey Services</a>
+                                <a [routerLink]="['/services', 'turnkey-ervices']" href="#">Turnkey Services</a>
                               </div>
                               <div class="nav-item-head">
-                                <a href="#">Emergency Service and Support</a>
+                                <a [routerLink]="['/services', 'emergency-service-and-support']" href="#">Emergency Service and Support</a>
                               </div>
                               <div class="nav-item-head">
                                 Installation
                               </div>
                               <ul>
-                                <li><a href="#">Sub-station Installation</a></li>
-                                <li><a href="#">Generator Installation</a></li>
-                                <li><a href="#">Power Plant Installation and Erection</a></li>
+                                <li><a [routerLink]="['/services', 'sub-station-installation']" href="#">Sub-station Installation</a></li>
+                                <li><a [routerLink]="['/services', 'generator-installation']" href="#">Generator Installation</a></li>
+                                <li><a [routerLink]="['/services', 'power-plant-installation-and-erection']" href="#">Power Plant Installation and Erection</a></li>
                               </ul>
                             </div>
                             <div class="col-md-4">
@@ -165,45 +165,45 @@
                                 Maintenance
                               </div>
                               <ul>
-                                <li><a href="#">Substation Maintenance</a></li>
-                                <li><a href="#">Substation Servicing</a></li>
-                                <li><a href="#">Transformar Maintenance</a></li>
-                                <li><a href="#">Transformer Servicing</a></li>
-                                <li><a href="#">Switch Gear Maintenance</a></li>
+                                <li><a [routerLink]="['/services', 'substation-maintenance']" href="#">Substation Maintenance</a></li>
+                                <li><a [routerLink]="['/services', 'substation-servicing']" href="#">Substation Servicing</a></li>
+                                <li><a [routerLink]="['/services', 'transformar-maintenance']" href="#">Transformar Maintenance</a></li>
+                                <li><a [routerLink]="['/services', 'transformer-servicing']" href="#">Transformer Servicing</a></li>
+                                <li><a [routerLink]="['/services', 'switch-gear-maintenance']" href="#">Switch Gear Maintenance</a></li>
                               </ul>
                               <div class="nav-item-head">
                                 Repeating
                               </div>
                               <ul>
-                                <li><a href="#">Transformer Repeating</a></li>
-                                <li><a href="#">Switch Gear Modification</a></li>
-                                <li><a href="#">Generator Repeating</a></li>
+                                <li><a [routerLink]="['/services', 'transformer-repeating']" href="#">Transformer Repeating</a></li>
+                                <li><a [routerLink]="['/services', 'switch-gear-modification']" href="#">Switch Gear Modification</a></li>
+                                <li><a [routerLink]="['/services', 'generator-repeating']" href="#">Generator Repeating</a></li>
                               </ul>                              
                             </div>
                             <div class="col-md-4">
                               <div class="nav-item-head">
-                                <a href="#">Site Testing and Commissioning</a>
+                                <a [routerLink]="['/services', 'site-testing-and-commissioning']" href="#">Site Testing and Commissioning</a>
                               </div>
                               <div class="nav-item-head">
-                                <a href="#">Project Management</a>
+                                <a [routerLink]="['/services', 'project-management']" href="#">Project Management</a>
                               </div>
                               <div class="nav-item-head">
-                                <a href="#">Network Design</a>
+                                <a [routerLink]="['/services', 'network-design']" href="#">Network Design</a>
                               </div>
                               <div class="nav-item-head">
-                                <a href="#">Discrimination Studies</a>
+                                <a [routerLink]="['/services', 'discrimination-studies']" href="#">Discrimination Studies</a>
                               </div>
                               <div class="nav-item-head">
-                                <a href="#">Power Quality Analysis</a>
+                                <a [routerLink]="['/services', 'power-quality-analysis']" href="#">Power Quality Analysis</a>
                               </div>
                               <div class="nav-item-head">
-                                <a href="#">Thermal Imaging Surveys</a>
+                                <a [routerLink]="['/services', 'thermal-imaging-surveys']" href="#">Thermal Imaging Surveys</a>
                               </div>
                               <div class="nav-item-head">
-                                <a href="#">Generator Hire and Connection</a>
+                                <a [routerLink]="['/services', 'generator-hire-and-connection']" href="#">Generator Hire and Connection</a>
                               </div>
                               <div class="nav-item-head">
-                                <a href="#">Health and Safety</a>
+                                <a [routerLink]="['/services', 'health-and-safety']" href="#">Health and Safety</a>
                               </div>
                             </div>
                           </div>

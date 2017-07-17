@@ -7,6 +7,9 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ProductsComponent } from './products/products.component';
+import { ProductsHomeComponent } from './products-home/products-home.component';
+//import { ServicesHomeComponent } from './services-home/services-home.component';
+
 import { ApiService } from './shared';
 import { routing } from './app.routing';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -27,7 +30,9 @@ enableProdMode();
     AppComponent,
     HomeComponent,
     AboutComponent,
-    ProductsComponent
+    ProductsComponent,
+    ProductsHomeComponent,
+    //ServicesHomeComponent,
   ],
   providers: [
     ApiService

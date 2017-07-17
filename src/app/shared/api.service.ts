@@ -16,6 +16,12 @@ export class ApiService {
     );
   }
 
+  fetchProductsHome() {
+    return this.http.get('/service/products.json').map(
+      (res) => res.json()
+    );
+  }
+
   constructor(private http: Http) { 
   }
   title = "Welcome to Techsol";
