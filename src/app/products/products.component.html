@@ -1,4 +1,4 @@
-<div class="container-fluid page-head">
+<div class="container-fluid page-head"  [style.background]="'url(' + product?.headImage + ')'">
     <div class="container" style="top: 96px;">
         <div class="row">
             <div class="col-md-6">
@@ -7,7 +7,6 @@
                 </div>
             </div>
             <div class="topic-img col-md-6">
-                <img src="{{product?.headImage}}" class="img-full-width" />
             </div>
         </div>
     </div>

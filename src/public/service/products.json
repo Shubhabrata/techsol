@@ -1,14 +1,14 @@
 {
-  "Autotransformers": {
-    "name": "Autotransformers",
+  "power-transformer": {
+    "url": "power-transformer",
+    "name": "Power Transformer",
     "productImageUrl": "/img/products/1.jpg",
     "headImage": "/img/prod-head/transformer.jpg",
-    "title": "WELCOME TO TECHSOL",
-    "description": "These high-voltage transformers are particularly used for connecting grids at different voltages. If voltage levels are close, autotransformers provide economical advantage. İn autotransformers, measures should be taken particularly against short circuits. Three-phase and single phase autotransformers up to 550kV, 500MVA, produced in BEST plants, have also successfully completed short circuit tests and they have been in operation since their first introduction in the grids.",
-    "keyNotes": [
-      "Production capacity up to 1250MVA, 750kV",
-      "Constant Flux Voltage Variation or Variable Flux Voltage Variation designs"
-    ],
+    "overview": "The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "specifications": "The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "features": "The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "benefits": "The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "serviceNsupport": "The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
     "relatedProducts": [
       {
         "name": "Autotransformers",
@@ -28,74 +28,16 @@
       }
     ]
   },
-  "Generator Transformers": {
-    "name": "Generator Transformers",
-    "productImageUrl": "/img/products/2.jpg",
-    "headImage": "/img/prod-head/switchboard.jpg",
-    "title": "WELCOME TO TECHSOL",
-    "description": "Generator transformers amplify generator output voltage to transmission line voltage. They should be designed in consideration of generator characteristics. They can have Neutral and Load step switches. Generator transformers have vital importance in meeting continuous and quality energy need of grids.",
-    "keyNotes": [
-      "Production capacity up to 1000MVA, 750kV",
-      "Designs made in consideration of overexcitation and loading curves of generators"
-    ],
-    "relatedProducts": [
-      {
-        "name": "Autotransformers",
-        "link": "Autotransformers"
-      },
-      {
-        "name": "Generator Transformers",
-        "link": "Generator Transformers"
-      },
-      {
-        "name": "Railroad Transformers",
-        "link": "Railroad Transformers"
-      },
-      {
-        "name": "Mobile Transformers",
-        "link": "Mobile Transformers"
-      }
-    ]
-  },
-  "Railroad Transformers": {
-    "name": "Railroad Transformers",
-    "productImageUrl": "/img/products/7.jpg",
-    "headImage": "/img/prod-head/distribution-board.jpg",
-    "title": "WELCOME TO TECHSOL",
-    "description": "These transformers reduce line voltage to the supply voltage of railroad line. Issues specific to railroad systems, notably high overcurrents, should be taken into consideration. BEST also contributes to this field with transformers that it provided to many railroad transportation systems including Marmaray.",
-    "keyNotes": [
-      "Production capacity up to 100MVA, 420kV",
-      "Special Care made to frequently repeated overcurrents"
-    ],
-    "relatedProducts": [
-      {
-        "name": "Autotransformers",
-        "link": "Autotransformers"
-      },
-      {
-        "name": "Generator Transformers",
-        "link": "Generator Transformers"
-      },
-      {
-        "name": "Railroad Transformers",
-        "link": "Railroad Transformers"
-      },
-      {
-        "name": "Mobile Transformers",
-        "link": "Mobile Transformers"
-      }
-    ]
-  },
-  "Mobile Transformers": {
-    "name": "Mobile Transformers",
-    "productImageUrl": "/img/products/8.jpg",
-    "headImage": "/img/prod-head/switch-gear.jpg",
-    "title": "WELCOME TO TECHSOL",
-    "description": "These transformers are used at mobile switchyards and loaded on transportation vehicles such as truck or railway carriage. As they can be used at multiple points of the grid, compliance with multiple voltage levels required. BEST produces transformers for mobile switchyards in many countries in cooperation with its experienced solution partners.",
-    "keyNotes": [
-      "Production capacity up to 100MVA 245kV",
-      "Land and railroad transportation limitations are complied"
-    ],
+  "distribution-transformer": {
+    "url": "distribution-transformer",
+    "name": "Distribution Transformer",
+    "productImageUrl": "/img/products/1.jpg",
+    "headImage": "/img/prod-head/transformer.jpg",
+    "overview": "The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "specifications": "The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "features": "The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "benefits": "The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "serviceNsupport": "The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
     "relatedProducts": [
       {
         "name": "Autotransformers",
@@ -115,4 +57,5 @@
       }
     ]
   }
+  
 }

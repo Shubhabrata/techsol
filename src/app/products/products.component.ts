@@ -23,6 +23,7 @@ export class ProductsComponent implements OnInit {
 
   ngOnInit() {
     this.sub = this.route.params.subscribe(params => {
+      console.log(params);
       this.name = params['name'];
       this.apiService.fetchProducts().subscribe(
         products => {
