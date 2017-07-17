@@ -3,9 +3,9 @@ import { ApiService } from '../shared';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'TS-services-home',
-  templateUrl: './services-home.component.html',
-  styleUrls: ['./services-home.component.scss']
+  selector: 'TS-serviceshome',
+  templateUrl: './serviceshome.component.html',
+  styleUrls: ['./serviceshome.component.scss']
 })
 export class ServicesHomeComponent implements OnInit {
 

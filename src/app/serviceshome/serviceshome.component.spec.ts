@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { ProductsHomeComponent } from './services-home.component';
+import { ServicesHomeComponent } from './serviceshome.component';
 
 describe('Services Home', () => {
 

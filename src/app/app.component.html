@@ -111,7 +111,7 @@
                       </div>
                     </div>
                   </li>
-                  <li [class.show-nav]="servicesMouseOvered" (mouseover)="servicesMouseOvered=true; productsMouseOvered=false;"><a href="#"  class="nav-link">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                  <li [class.show-nav]="servicesMouseOvered" (mouseover)="servicesMouseOvered=true; productsMouseOvered=false;"><a href="#" [routerLink]="['serviceshome']" class="nav-link">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                     <div class="nav-details-container" (mouseleave)="productsMouseOvered=false; servicesMouseOvered=false">
                       <div class="container">
                         <div class="row">

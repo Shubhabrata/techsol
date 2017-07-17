@@ -8,7 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ProductsComponent } from './products/products.component';
 import { ProductsHomeComponent } from './products-home/products-home.component';
-//import { ServicesHomeComponent } from './services-home/services-home.component';
+import { ServicesHomeComponent } from './serviceshome/serviceshome.component';
 
 import { ApiService } from './shared';
 import { routing } from './app.routing';
@@ -32,7 +32,7 @@ enableProdMode();
     AboutComponent,
     ProductsComponent,
     ProductsHomeComponent,
-    //ServicesHomeComponent,
+    ServicesHomeComponent,
   ],
   providers: [
     ApiService
