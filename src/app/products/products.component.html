@@ -1,12 +1,32 @@
-<div class="container-fluid page-head"  [style.background]="'url(' + product?.headImage + ')'">
-    <div class="container" style="top: 96px;">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="topic-description">
-                    <h1 class="primary-headline">{{product?.name}}</h1>
+<div class="container-fluid page-head">
+    <div class="container page-head">
+        <div class="breadcrumb "><a [routerLink]="['/']">Home</a> > <a [routerLink]="['/products-home']">Products</a> > {{product?.name}}</div>
+    </div>
+</div>
+<div class="container-fluid background-img" [style.background]="'url(' + product?.headImage + ')'">
+    <div class="container-fluid background-cover">
+        <div class="container" style="top: 96px;">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="prod-banner">
+                        <div class="col-md-8">
+                            <div class="prod-banner-text">
+                                <h1>{{product?.name}}</h1>
+                                Niti Kotha..... Niti Kotha..... Niti Kotha..... Niti Kotha..... Niti Kotha..... Niti Kotha..... Niti Kotha..... Niti Kotha.....
+                                Niti Kotha..... Niti Kotha..... Niti Kotha..... Niti Kotha..... Niti Kotha..... Niti Kotha.....
+                                Niti Kotha..... Niti Kotha..... Niti Kotha..... Niti Kotha..... Niti Kotha..... Niti Kotha.....
+                                Niti Kotha.....
+                            </div>
+                        </div>
+                        <div class="col-md-4 prod-banner-img">
+                            <div class="prod-banner-img-container">
+                                <img src="{{product?.productImageUrl}}1" class="img-full-width" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="topic-img col-md-6">
+                <div class="topic-img col-md-6">
+                </div>
             </div>
         </div>
     </div>
@@ -16,63 +36,89 @@
 <div class="container-fluid">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <div class="prod-banner">
-                    <div class="col-md-8">
-                        <div class="prod-banner-text">
-                            Small description about the product
-                        </div>
-                    </div>
-                    <div class="col-md-4 prod-banner-img">
-                        <div class="prod-banner-img-container">
-                            <img src="{{product?.productImageUrl}}" class="img-full-width" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
+            <div class="col-md-8">
+                <div class="row">
                     <div class="tab-container">
-                    <ngb-tabset>
-                        <ngb-tab title="Overview">
-                            <ng-template ngbTabContent>
-                                <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown
-                                    aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan
-                                    helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu
-                                    banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan
-                                    aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
-                            </ng-template>
-                        </ngb-tab>
-                        <ngb-tab title="Features">
-                            <ng-template ngbTabContent>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
-                                <p>Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan
-                                    four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft
-                                    beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda
-                                    labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit
-                                    sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable
-                                    jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester
-                                    stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
-                            </ng-template>
-                        </ngb-tab>
-                        <ngb-tab title="Specs">
-                            <ng-template ngbTabContent>
-                                <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown
-                                    aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan
-                                    helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu
-                                    banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan
-                                    aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
-                            </ng-template>
-                        </ngb-tab>
-                        <ngb-tab title="Resources">
-                            <ng-template ngbTabContent>
-                                <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown
-                                    aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan
-                                    helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu
-                                    banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan
-                                    aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
-                            </ng-template>
-                        </ngb-tab>
-                    </ngb-tabset>
+                        <ngb-tabset>
+                            <ngb-tab title="Overview">
+                                <ng-template ngbTabContent>
+                                    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown
+                                        aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan
+                                        helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater
+                                        eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone.
+                                        Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+                                </ng-template>
+                            </ngb-tab>
+                            <ngb-tab title="Features" id="feature">
+                                <ng-template ngbTabContent>
+                                    <div class="features">
+                                        <div class="row">
+                                            <div class="col-md-7">
+                                                <ul>
+                                                    <li>96.5% high efficiency eSure rectifiers</li>
+                                                    <li>Modular design allows for incremental cost-effective system growth</li>
+                                                    <li>NetSure Controller provides advanced system control and monitoring with
+                                                        an intuitive, easy-to-use interface</li>
+                                                    <li>Dual Ethernet option provides a separate network connection and local
+                                                        craft port
+                                                    </li>
+                                                    <li>Add plug-n-play rectifiers and converters without making adjustments;
+                                                        no system interruption
+                                                    </li>
+                                                    <li>Front access allows for easy installation, operation and maintenance</li>
+                                                    <li>NEBS Level 3 certified; UL Listed to UL subject 1801</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <img src="{{product?.productImageUrl}}1" class="img-full-width" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ng-template>
+                            </ngb-tab>
+                            <ngb-tab title="Specs">
+                                <ng-template ngbTabContent>
+                                    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown
+                                        aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan
+                                        helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater
+                                        eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone.
+                                        Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+                                </ng-template>
+                            </ngb-tab>
+                            <ngb-tab title="Resources">
+                                <ng-template ngbTabContent>
+                                    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown
+                                        aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan
+                                        helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater
+                                        eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone.
+                                        Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+                                </ng-template>
+                            </ngb-tab>
+                        </ngb-tabset>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Related Products</h2>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="share">Share this page</div>
+                        <div class="contacts">Key Contacts</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="share">Share this page</div>
+                        <div class="contacts">Key Contacts</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="share">Share this page</div>
+                        <div class="contacts">Key Contacts</div>
                     </div>
                 </div>
             </div>
+            <div class="col-md-4">
+                <div class="share">Share this page</div>
+                <div class="contacts">Key Contacts</div>
+            </div>
+        </div>
+    </div>
+</div>
