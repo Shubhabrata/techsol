@@ -163,7 +163,42 @@ p {
     background-position: center  !important;
     padding-right: 0  !important;
     padding-left: 0  !important;
+    padding-top:86px;
 }
 .breadcrumb{
-    background-color:transparent !important;
+    background-color:#2f2f2f !important;
+    margin: 5px 0 !important;
+}
+
+.page-nav{
+    background-color: #00b6cf;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px;
+    border-bottom: 1px solid #00e0ff;
+    z-index: 1499;
+    ul{
+        overflow: auto;
+        margin: 0px;
+        text-align: center;
+
+        li{
+            display: inline-block;
+            padding: 0;
+            a{
+                color:#000000;
+                padding: 10px 30px;
+                display: block;
+                text-decoration: none;
+
+            }
+            a:hover{
+                color:#FFFFFF;
+            }
+        }
+        li:hover{
+            background-color: #2f2f2f;
+        }
+    }
+    
 }

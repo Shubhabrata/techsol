@@ -1,8 +1,28 @@
-<div class="container-fluid page-head">
-    <div class="container page-head">
-        <div class="breadcrumb "><a [routerLink]="['/']">Home</a> > <a [routerLink]="['/products-home']">Products</a> > {{product?.name}}</div>
+<div class="page-nav">
+    <div class="page-nav-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="breadcrumb "><a [routerLink]="['/']">Home</a> > <a [routerLink]="['/products-home']">Products</a> > {{product?.name}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <ul>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#specs">Specs</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
+
 <div class="container-fluid background-img" [style.background]="'url(' + product?.headImage + ')'">
     <div class="container-fluid background-cover">
         <div class="container" style="top: 96px;">
@@ -36,65 +56,58 @@
 <div class="container-fluid">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-9">
                 <div class="row">
-                    <div class="tab-container">
-                        <ngb-tabset>
-                            <ngb-tab title="Overview">
-                                <ng-template ngbTabContent>
-                                    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown
-                                        aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan
-                                        helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater
-                                        eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone.
-                                        Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
-                                </ng-template>
-                            </ngb-tab>
-                            <ngb-tab title="Features" id="feature">
-                                <ng-template ngbTabContent>
-                                    <div class="features">
-                                        <div class="row">
-                                            <div class="col-md-7">
-                                                <ul>
-                                                    <li>96.5% high efficiency eSure rectifiers</li>
-                                                    <li>Modular design allows for incremental cost-effective system growth</li>
-                                                    <li>NetSure Controller provides advanced system control and monitoring with
-                                                        an intuitive, easy-to-use interface</li>
-                                                    <li>Dual Ethernet option provides a separate network connection and local
-                                                        craft port
-                                                    </li>
-                                                    <li>Add plug-n-play rectifiers and converters without making adjustments;
-                                                        no system interruption
-                                                    </li>
-                                                    <li>Front access allows for easy installation, operation and maintenance</li>
-                                                    <li>NEBS Level 3 certified; UL Listed to UL subject 1801</li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-5">
-                                                <img src="{{product?.productImageUrl}}1" class="img-full-width" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </ng-template>
-                            </ngb-tab>
-                            <ngb-tab title="Specs">
-                                <ng-template ngbTabContent>
-                                    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown
-                                        aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan
-                                        helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater
-                                        eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone.
-                                        Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
-                                </ng-template>
-                            </ngb-tab>
-                            <ngb-tab title="Resources">
-                                <ng-template ngbTabContent>
-                                    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown
-                                        aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan
-                                        helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater
-                                        eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone.
-                                        Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
-                                </ng-template>
-                            </ngb-tab>
-                        </ngb-tabset>
+                    <div class="col-md-12 scrollspy section" id="overview">
+                        <h2>Overview</h2>
+                        <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                            retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit
+                            butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson
+                            ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel,
+                            butcher voluptate nisi qui.</p>
+                    </div>
+
+                    <div class="col-md-12 scrollspy section" id="features">
+                        <h2>Features</h2>
+                        <div class="features">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <ul>
+                                        <li>96.5% high efficiency eSure rectifiers</li>
+                                        <li>Modular design allows for incremental cost-effective system growth</li>
+                                        <li>NetSure Controller provides advanced system control and monitoring with an intuitive,
+                                            easy-to-use interface</li>
+                                        <li>Dual Ethernet option provides a separate network connection and local craft port
+                                        </li>
+                                        <li>Add plug-n-play rectifiers and converters without making adjustments; no system interruption
+                                        </li>
+                                        <li>Front access allows for easy installation, operation and maintenance</li>
+                                        <li>NEBS Level 3 certified; UL Listed to UL subject 1801</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-5">
+                                    <img src="{{product?.productImageUrl}}1" class="img-full-width" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 scrollspy section" id="specs">
+                        <h2>Specs</h2>
+                        <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                            retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit
+                            butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson
+                            ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel,
+                            butcher voluptate nisi qui.</p>
+                    </div>
+
+                    <div class="col-md-12 scrollspy section" id="resources">
+                        <h2>Resources</h2>
+                        <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                            retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit
+                            butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson
+                            ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel,
+                            butcher voluptate nisi qui.</p>
                     </div>
                 </div>
                 <div class="row">
@@ -102,7 +115,9 @@
                         <h2>Related Products</h2>
                     </div>
                     <div class="col-md-4">
-                        <div class="share">Share this page</div>
+                        <div class="share">
+            
+                        </div>
                         <div class="contacts">Key Contacts</div>
                     </div>
                     <div class="col-md-4">
@@ -115,9 +130,26 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="share">Share this page</div>
-                <div class="contacts">Key Contacts</div>
+            <div class="col-md-3">
+                <div class="share">
+                        <h3>Share this page</h3>
+                        <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-2x social"></i></a>
+                        <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-2x social"></i></a>
+                        <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-2x social"></i></a>
+                        <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
+
+
+                </div>
+                <div class="contacts"><br/>
+                        <h3>Key Contacts</h3>
+                        <br/>
+                        <i class="fa fa-address-card-o fa-4x" aria-hidden="true"></i><br/><br/>
+                        <strong>Name: Md. Shaiful Islam</strong><br/>
+                        Designation: managing Director.<br/>
+                        Phone: +881234567890.<br/>
+                        Email: shaiful@techsolbd.com.<br/>
+
+                </div>
             </div>
         </div>
     </div>

@@ -165,11 +165,6 @@ module.exports = function makeWebpackConfig() {
         ENV: JSON.stringify(ENV)
       }
     }),
-    new webpack.ProvidePlugin({   
-        jQuery: 'jquery',
-        $: 'jquery',
-        jquery: 'jquery'
-    }),
 
     // Workaround needed for angular 2 angular/angular#11580
     new webpack.ContextReplacementPlugin(

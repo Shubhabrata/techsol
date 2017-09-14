@@ -1,0 +1,7 @@
+{
+  "short_name": "AMP",
+  "name": "AMP",
+  "start_url": "http://localhost:3000/",
+  "display": "standalone",
+  "orientation": "portrait"
+}

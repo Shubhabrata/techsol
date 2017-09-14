@@ -37,5 +37,8 @@ export class ProductsComponent implements OnInit {
       // In a real app: dispatch action to load the details here.
     });
   }
+  ngAfterViewInit() {
+    (<any>$('.scrollspy')).scrollSpy();
+  }  
 
 }
