@@ -240,7 +240,6 @@ width: 174px;
 }
 .page-head{
     min-height: 400px;
-    position: fixed;
 }
 
 .block-type-1{
@@ -256,4 +255,17 @@ width: 174px;
     min-height: 320px;
 }
 
-
+.testimonial-img{
+    width:200px;
+}
+.title{
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 10px;
+    display: inline-block;    
+}
+.testimonial{
+    .content{
+        margin-left: 20px !important;
+    }
+}

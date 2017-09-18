@@ -1,0 +1,42 @@
+{
+  "engineering-procurement-and-construction-epc": {
+    "url": "engineering-procurement-and-construction-epc",
+    "name": "Engineering Procurement and Construction (EPC)",
+    "productImageUrl": [
+      "/img/img-24.jpg",
+      "/img/img-22.jpg"
+    ],
+    "headImage": "/img/prod-head/transformer.jpg",
+    "description": "Description: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "overview": "Overview: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "features": "Features:  <ul><li>96.5% high efficiency eSure rectifiers</li><li>Modular design allows for incremental cost-effective system growth</li>",
+    "specification": "Specification: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "resources": [
+      {
+        "name": "Design Document",
+        "link": "/download/img-22.pdf"
+      },
+      {
+        "name": "Catalog",
+        "link": "/download/img-21.pdf"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      }
+    ]
+  }
+}

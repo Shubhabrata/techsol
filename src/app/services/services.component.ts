@@ -3,13 +3,13 @@ import { ApiService } from '../shared';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'TS-products',
-  templateUrl: './products.component.html',
-  styleUrls: ['./products.component.scss']
+  selector: 'TS-services',
+  templateUrl: './services.component.html',
+  styleUrls: ['./services.component.scss']
 })
-export class ProductsComponent implements AfterViewInit, OnInit {
-  private products;
-  public product;
+export class ServicesComponent implements AfterViewInit, OnInit {
+  private services;
+  public service;
   private sub: any;
   private name;
   constructor(
@@ -21,24 +21,25 @@ export class ProductsComponent implements AfterViewInit, OnInit {
   ngOnInit() {
     this.sub = this.route.params.subscribe(params => {
       this.name = params['name'];
-      this.apiService.fetchProducts().subscribe(
-        products => {
-          this.products = products;
+      this.apiService.fetchServices().subscribe(
+        services => {
+          this.services = services;
           var name = this.name;
-          this.product = products[name];
+          this.service = services[name];
         },
         err => console.error(err),
-        () => console.log(this.products)
+        () => console.log(this.services)
       );
       // In a real app: dispatch action to load the details here.
     });
   }
   ngAfterViewInit() {
-    (<any>$('.scrollspy')).scrollSpy();
-    /*(<any>$('.carousel-prod')).carousel({ fullWidth: true }, setTimeout(autoplay, 8000));    
+    /*(<any>$('.scrollspy')).scrollSpy();
+    (<any>$('.carousel-prod')).carousel({ fullWidth: true }, setTimeout(autoplay, 8000));    
     function autoplay() {
       (<any>$('.carousel-prod')).carousel('next');
       setTimeout(autoplay, 8000);
-    }*/
+    }
+    */
   }
 }

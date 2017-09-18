@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="breadcrumb "><a [routerLink]="['/']">Home</a> > <a [routerLink]="['/products-home']">Products</a> > {{product?.name}}</div>
+                    <div class="breadcrumb "><a [routerLink]="['/']">Home</a> > <a [routerLink]="['/services-home']">Services</a> > {{service?.name}}</div>
                 </div>
             </div>
         </div>
@@ -15,7 +15,7 @@
                 <ul>
                     <li><a href="#overview">Overview</a></li>
                     <li><a href="#features">Features</a></li>
-                    <li><a href="#specs">Specs</a></li>
+                    <li><a href="#benefits">Benefits</a></li>
                     <li><a href="#resources">Resources</a></li>
                 </ul>
             </div>
@@ -23,7 +23,7 @@
     </div>
 </div>
 
-<div class="container-fluid background-img" [style.background]="'url(' + product?.headImage + ')'">
+<div class="container-fluid background-img" [style.background]="'url(' + service?.headImage + ')'">
     <div class="container-fluid background-cover">
         <div class="container" style="top: 96px;">
             <div class="row">
@@ -31,15 +31,15 @@
                     <div class="prod-banner">
                         <div class="col-md-8">
                             <div class="prod-banner-text">
-                                <h1>{{product?.name}}</h1>
-                                <p>{{product?.description}}</p>
+                                <h1>{{service?.name}}</h1>
+                                <p>{{service?.description}}</p>
                             </div>
                         </div>
                         <div class="col-md-4 prod-banner-img">
                             <div class="prod-banner-img-container">
                                 <div class="carousel carousel-prod carousel-slider center" data-indicators="true">
-                                    <div class="carousel-item" *ngFor="let productImgUrl of product?.productImageUrl">
-                                        <img src="{{productImgUrl}} " class="img-full-width" />
+                                    <div class="carousel-item" *ngFor="let serviceImgUrl of service?.serviceImageUrl">
+                                        <img src="{{serviceImgUrl}} " class="img-full-width" />
                                     </div>
                                 </div>
                             </div>
@@ -57,11 +57,11 @@
 <div class="container-fluid">
     <div class="container">
         <div class="row">
-            <div class="col-md-9">
+            <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-12 scrollspy section" id="overview">
                         <h2>Overview</h2>
-                        <p>{{product?.overview}}</p>
+                        <p>{{service?.overview}}</p>
                     </div>
 
                     <div class="col-md-12 scrollspy section" id="features">
@@ -69,21 +69,21 @@
                         <div class="features">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <p innerHTML="{{product?.features}}"></p>
+                                    <p innerHTML="{{service?.features}}"></p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-12 scrollspy section" id="specs">
-                        <h2>Specification</h2>
-                        <p>{{product?.specification}}</p>
+                    <div class="col-md-12 scrollspy section" id="benefits">
+                        <h2>Benefits</h2>
+                        <p>{{service?.benefits}}</p>
                     </div>
 
-                    <div class="col-md-12 scrollspy section" id="resources">
-                        <h2>Resources</h2>
+                    <div class="col-md-12 scrollspy section" id="downloads">
+                        <h2>Downloads</h2>
                         <table>
-                            <tr class="resources" *ngFor="let resource of product?.resources">
+                            <tr class="resources" *ngFor="let resource of service?.downloads">
                                 <td>
                                     <h4>{{resource.name}}</h4>
                                 </td>
@@ -91,39 +91,28 @@
                             </tr>
                         </table>
                     </div>
+                    <div class="col-md-12 scrollspy section" id="contacts">
+                        <h2>Contacts</h2>
+                        <table>
+                            <tr class="contacts" *ngFor="let contact of service?.contacts">
+                                <td>
+                                    <h4>{{contact.name}}</h4>
+                                </td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{contact.link}}" target="_blank"></a></td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <h2>Related Products</h2>
+                        <h2>More Services</h2>
                     </div>
-                    <div class="col-md-4" *ngFor="let relatedProduct of product?.relatedProducts">
+                    <div class="col-md-4" *ngFor="let relatedService of service?.relatedServices">
                         <div class="relate-prod">
-
-
-
-                            <a href="{{relatedProduct.link}}"><img src="{{relatedProduct.imageUrl}}" class="img-full-width"/></a>
-                            <h3><a href="{{relatedProduct.link}}">{{relatedProduct.name}}</a></h3>
-
+                            <a href="{{relatedService.link}}"><img src="{{relatedService.imageUrl}}" class="img-full-width"/></a>
+                            <h3><a href="{{relatedService.link}}">{{relatedService.name}}</a></h3>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="share">
-                    <h3>Share this page</h3>
-                    <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-2x social"></i></a>
-                    <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-2x social"></i></a>
-                    <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-2x social"></i></a>
-                    <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
-
-
-                </div>
-                <div class="contacts"><br/>
-                    <h3>Key Contacts</h3>
-                    <br/>
-                    <i class="fa fa-address-card-o fa-4x" aria-hidden="true"></i><br/><br/>
-                    <strong>Name: Md. Shaiful Islam</strong><br/> Designation: managing Director.<br/> Phone: +881234567890.<br/>                    Email: shaiful@techsolbd.com.<br/>
-
                 </div>
             </div>
         </div>

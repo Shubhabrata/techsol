@@ -5,7 +5,9 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="row">
-            <div class="logo pull-left"></div>
+            <a [routerLink]="['/']">
+              <div class="logo pull-left"></div>
+            </a>
             <div class="search-container pull-left">
               <input type="text" class="search-box" placeholder="Search" /><button type="button" class="search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
             </div>
@@ -172,7 +174,7 @@
                                 <li><a [routerLink]="['/services', 'switch-gear-maintenance']" href="#">Switch Gear Maintenance</a></li>
                               </ul>
                               <div class="nav-item-head">
-                                Repeating
+                                Repairing
                               </div>
                               <ul>
                                 <li><a [routerLink]="['/services', 'transformer-repeating']" href="#">Transformer Repeating</a></li>
@@ -211,7 +213,7 @@
                       </div>
                     </div>
                   </li>
-                  <li><a href="#">Solutions <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                  <li><a href="#">Gallery <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -228,12 +230,60 @@
   <div class="container-fluid">
     <div class="container">
       <div class="row">
-        <li><a [routerLink]="['about']">About Us</a></li>
-        <li><a [routerLink]="['about']">Gallery</a></li>
-        <li><a [routerLink]="['about']">Contact</a></li>
-        <li><a [routerLink]="['about']">Quality</a></li>
-        <li><a [routerLink]="['about']">Clients</a></li>
-        <li><a [routerLink]="['about']">Infrastructure</a></li>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <h4>Links</h4>
+          <ul>
+            <li><a [routerLink]="['about']">About Us</a></li>
+            <li><a [routerLink]="['about']">Contact Us</a></li>
+            <li><a [routerLink]="['about']">Gallery</a></li>
+            <li><a [routerLink]="['about']">Contact</a></li>
+            <li><a [routerLink]="['about']">Quality</a></li>
+            <li><a [routerLink]="['about']">Clients</a></li>
+            <li><a [routerLink]="['about']">Infrastructure</a></li>
+            <li><a [routerLink]="['about']">Products</a></li>
+            <li><a [routerLink]="['about']">Services</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h4>Contact Us</h4>
+          <p>
+            <strong>Techsol Engineering Limited</strong><br/> BDBL Bhaban (Level - 19)<br/> 12 Karwan Bazar C/A<br/> Dhaka
+            - 1215. Bangladesh.
+            <br/> Tel: +88 02 8189587 - 89<br/> Cell: +8801711547055<br/> Email: info@techsolbd.com<br/>
+          </p>
+        </div>
+        <div class="col-md-3">
+          <h4>Code of Ethics</h4>
+          <p>Techsol is committed to fairness and honesty in all its dealings. To demonstrate our commitment to ensuring ethical
+            behavior we have put in place industry standard measures. </p>
+        </div>
+        <div class="col-md-3" style="text-align:right;">
+          <h4>Awards &amp; Recognition</h4>
+          <img src="/img/iso.png" style="width: 200px;" />
+          <h5>Techsol is an ISO 9001:2008 &amp; 14001:2004 Certified Company</h5>
+          <h4>Follow Us</h4>
+          <div class="share">
+            <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+            <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+            <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          &copy; 2017 Techsol Engineering Pvt. Ltd.
+        </div>
+        <div class="col-md-6" style="text-align:right">
+          <a [routerLink]="['privacy']">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a [routerLink]="['sitemap']">Sitemap</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a [routerLink]="['support']">Support</a>
+        </div>
       </div>
     </div>
   </div>

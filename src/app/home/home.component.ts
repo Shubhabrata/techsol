@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { ApiService } from '../shared';
 
 
@@ -8,7 +8,7 @@ import { ApiService } from '../shared';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent implements AfterViewInit, OnInit {
 
 
   public home;
@@ -21,11 +21,17 @@ export class HomeComponent implements OnInit {
       home => { this.home = home },
       err => console.error(err),
       () => console.log(this.home)
-      );
+    );
   }
 
   ngOnInit() {
     this.getHomeContent();
   }
-
+  ngAfterViewInit() {
+    (<any>$('.carousel-home')).carousel({ fullWidth: true }, setTimeout(autoplay, 15000));
+    function autoplay() {
+      (<any>$('.carousel-home')).carousel('next');
+      setTimeout(autoplay, 15000);
+    }
+  }
 }

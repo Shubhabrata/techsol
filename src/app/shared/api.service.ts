@@ -16,6 +16,12 @@ export class ApiService {
     );
   }
 
+  fetchServices() {
+    return this.http.get('/service/services.json').map(
+      (res) => res.json()
+    );
+  }
+
   fetchProductsHome() {
     return this.http.get('/service/products.json').map(
       (res) => res.json()
