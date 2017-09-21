@@ -156,7 +156,7 @@ p {
 }
 
 .background-cover{
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.6);
 }
 .background-img{
     background-size: cover !important; 
@@ -306,3 +306,46 @@ $carousel-item-width: $carousel-item-height !default;
     }
   }
   
+
+  .prod-banner{
+    overflow: auto;
+    margin: 30px 0px;
+    padding: 3px; 
+    overflow: hidden;
+
+[class*="col-"] {
+    padding:0;
+}
+.prod-banner-text, .prod-banner-img-container{
+    padding:30px;
+    
+}
+.prod-banner-text{
+color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: .06em;
+    padding-left: 0;
+    padding-top: 0;
+    h1{
+        margin-top: 0;
+    }
+}
+.prod-banner-img-container{
+    background-color: #FFFFFF;
+}
+}
+.page-head{
+    background-size: cover;
+}
+.page-nav-top{
+    background-color: #2f2f2f;
+    color: #FFFFFF;
+    a{
+        color:#FFFFFF;
+    }
+}
+h2{
+    font-weight: 100 !important;
+    
+}
