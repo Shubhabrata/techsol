@@ -16,7 +16,8 @@
                     <li><a href="#overview">Overview</a></li>
                     <li><a href="#features">Features</a></li>
                     <li><a href="#benefits">Benefits</a></li>
-                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#downloads">Downloads</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
                 </ul>
             </div>
         </div>
@@ -37,7 +38,7 @@
                         </div>
                         <div class="col-md-4 prod-banner-img">
                             <div class="prod-banner-img-container">
-                                <div class="carousel carousel-prod carousel-slider center" data-indicators="true">
+                                <div class="carousel carousel-services carousel-slider center" data-indicators="true">
                                     <div class="carousel-item" *ngFor="let serviceImgUrl of service?.serviceImageUrl">
                                         <img src="{{serviceImgUrl}}" class="img-full-width" />
                                     </div>
@@ -83,7 +84,7 @@
                     <div class="col-md-12 scrollspy section" id="downloads">
                         <h2>Downloads</h2>
                         <table>
-                            <tr class="resources" *ngFor="let resource of service?.downloads">
+                            <tr class="resources" *ngFor="let resource of service?.resources">
                                 <td>
                                     <h4>{{resource.name}}</h4>
                                 </td>
@@ -92,15 +93,14 @@
                         </table>
                     </div>
                     <div class="col-md-12 scrollspy section" id="contacts">
+
                         <h2>Contacts</h2>
-                        <table>
-                            <tr class="contacts" *ngFor="let contact of service?.contacts">
-                                <td>
-                                    <h4>{{contact.name}}</h4>
-                                </td>
-                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{contact.link}}" target="_blank"></a></td>
-                            </tr>
-                        </table>
+                        <div class="contacts" *ngFor="let contact of service?.contacts">
+                            <h4>{{contact.name}}</h4>
+                            <div>{{contact.designation}}</div>
+                            <div>{{contact.phone}}</div>
+                            <div>{{contact.email}}</div>
+                        </div>
                     </div>
                 </div>
                 <div class="row">

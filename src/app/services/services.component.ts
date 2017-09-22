@@ -28,7 +28,7 @@ export class ServicesComponent implements AfterViewInit, OnInit {
           this.service = services[name];
           setTimeout(function () {
             (<any>$('.scrollspy')).scrollSpy();
-            (<any>$('.carousel-prod')).carousel();
+            (<any>$('.carousel-services')).carousel({ fullWidth: true });
           }, 100);
         },
         err => console.error(err),
@@ -40,9 +40,9 @@ export class ServicesComponent implements AfterViewInit, OnInit {
   ngAfterViewInit() {
     setTimeout(function () {
       (<any>$('.scrollspy')).scrollSpy();
-      (<any>$('.carousel-prod')).carousel({ fullWidth: true }, setTimeout(autoplay, 8000));
+      (<any>$('.carousel-services')).carousel({ fullWidth: true }, setTimeout(autoplay, 8000));
       function autoplay() {
-        (<any>$('.carousel-prod')).carousel('next');
+        (<any>$('.carousel-services')).carousel('next');
         setTimeout(autoplay, 8000);
       }
     }, 100);

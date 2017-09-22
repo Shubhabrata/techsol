@@ -28,7 +28,7 @@ export class ProductsComponent implements AfterViewInit, OnInit {
           this.product = products[name];
           setTimeout(function () {
             (<any>$('.scrollspy')).scrollSpy();
-            (<any>$('.carousel-prod')).carousel();
+            (<any>$('.carousel-prod')).carousel({ fullWidth: true });
           }, 100);
         },
         err => console.error(err),
