@@ -2,7 +2,7 @@
   "engineering-procurement-and-construction-epc": {
     "url": "engineering-procurement-and-construction-epc",
     "name": "Engineering Procurement and Construction (EPC)",
-    "productImageUrl": [
+    "serviceImageUrl": [
       "/img/img-24.jpg",
       "/img/img-22.jpg"
     ],
@@ -21,7 +21,7 @@
         "link": "/download/img-21.pdf"
       }
     ],
-    "relatedProducts": [
+    "relatedServices": [
       {
         "name": "Autotransformers",
         "link": "Autotransformers",
@@ -42,7 +42,7 @@
   "engineering-and-consultancy": {
     "url": "engineering-and-consultancy",
     "name": "Engineering and Consultancy",
-    "productImageUrl": [
+    "serviceImageUrl": [
       "/img/img-24.jpg",
       "/img/img-22.jpg"
     ],
@@ -61,7 +61,7 @@
         "link": "/download/img-21.pdf"
       }
     ],
-    "relatedProducts": [
+    "relatedServices": [
       {
         "name": "Autotransformers",
         "link": "Autotransformers",
@@ -82,7 +82,7 @@
   "turnkey-services": {
     "url": "turnkey-services",
     "name": "Turnkey Services",
-    "productImageUrl": [
+    "serviceImageUrl": [
       "/img/img-24.jpg",
       "/img/img-22.jpg"
     ],
@@ -101,7 +101,7 @@
         "link": "/download/img-21.pdf"
       }
     ],
-    "relatedProducts": [
+    "relatedServices": [
       {
         "name": "Autotransformers",
         "link": "Autotransformers",

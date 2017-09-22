@@ -26,6 +26,10 @@ export class ProductsComponent implements AfterViewInit, OnInit {
           this.products = products;
           var name = this.name;
           this.product = products[name];
+          setTimeout(function () {
+            (<any>$('.scrollspy')).scrollSpy();
+            (<any>$('.carousel-prod')).carousel();
+          }, 100);
         },
         err => console.error(err),
         () => console.log(this.products)
@@ -34,11 +38,13 @@ export class ProductsComponent implements AfterViewInit, OnInit {
     });
   }
   ngAfterViewInit() {
-    (<any>$('.scrollspy')).scrollSpy();
-    (<any>$('.carousel-prod')).carousel({ fullWidth: true }, setTimeout(autoplay, 8000));    
-    function autoplay() {
-      (<any>$('.carousel-prod')).carousel('next');
-      setTimeout(autoplay, 8000);
-    }
+    setTimeout(function () {
+      (<any>$('.scrollspy')).scrollSpy();
+      (<any>$('.carousel-prod')).carousel({ fullWidth: true }, setTimeout(autoplay, 8000));
+      function autoplay() {
+        (<any>$('.carousel-prod')).carousel('next');
+        setTimeout(autoplay, 8000);
+      }
+    }, 100);
   }
 }
