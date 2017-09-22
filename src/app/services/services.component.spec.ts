@@ -1,14 +1,14 @@
 import { TestBed } from '@angular/core/testing';
 
-import { ProductsComponent } from './products.component';
+import { ServicesComponent } from './services.component';
 
 describe('Products Component', () => {
   beforeEach(() => {
-    TestBed.configureTestingModule({declarations: [ProductsComponent]});
+    TestBed.configureTestingModule({declarations: [ServicesComponent]});
   });
 
   it('should ...', () => {
-    const fixture = TestBed.createComponent(ProductsComponent);
+    const fixture = TestBed.createComponent(ServicesComponent);
     fixture.detectChanges();
     expect(fixture.nativeElement.children[0].textContent).toContain('About Works!');
   });

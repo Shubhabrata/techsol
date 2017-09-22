@@ -16,6 +16,7 @@ export class AboutComponent implements OnInit, AfterViewInit {
   }
   ngAfterViewInit() {
     (<any>$('.scrollspy')).scrollSpy();
+    
     /*(<any>$('.carousel-prod')).carousel({ fullWidth: true }, setTimeout(autoplay, 8000));    
     function autoplay() {
       (<any>$('.carousel-prod')).carousel('next');

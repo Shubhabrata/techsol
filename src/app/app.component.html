@@ -20,7 +20,7 @@
               </div>
               <div class="nav-bottom">
                 <ul>
-                  <li [class.show-nav]="productsMouseOvered" (mouseover)="productsMouseOvered=true; servicesMouseOvered=false"><a href="#" [routerLink]="['products-home']" class="nav-link">Product <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                  <li class="nav-link" [class.show-nav]="productsMouseOvered" (mouseover)="productsMouseOvered=true; servicesMouseOvered=false"><a href="#" [routerLink]="['products-home']" class="nav-link">Product <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                     <div class="nav-details-container" (mouseleave)="productsMouseOvered=false; servicesMouseOvered=false">
                       <div class="container">
                         <div class="row">
@@ -113,7 +113,7 @@
                       </div>
                     </div>
                   </li>
-                  <li [class.show-nav]="servicesMouseOvered" (mouseover)="servicesMouseOvered=true; productsMouseOvered=false;"><a href="#" [routerLink]="['serviceshome']" class="nav-link">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                  <li class="nav-link" [class.show-nav]="servicesMouseOvered" (mouseover)="servicesMouseOvered=true; productsMouseOvered=false;"><a href="#" [routerLink]="['serviceshome']" class="nav-link">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                     <div class="nav-details-container" (mouseleave)="productsMouseOvered=false; servicesMouseOvered=false">
                       <div class="container">
                         <div class="row">
@@ -148,7 +148,7 @@
                                 <a [routerLink]="['/services', 'engineering-and-consultancy']" href="#">Engineering and Consultancy</a>
                               </div>
                               <div class="nav-item-head">
-                                <a [routerLink]="['/services', 'turnkey-ervices']" href="#">Turnkey Services</a>
+                                <a [routerLink]="['/services', 'turnkey-services']" href="#">Turnkey Services</a>
                               </div>
                               <div class="nav-item-head">
                                 <a [routerLink]="['/services', 'emergency-service-and-support']" href="#">Emergency Service and Support</a>
@@ -238,7 +238,6 @@
             <li><a [routerLink]="['about']">About Us</a></li>
             <li><a [routerLink]="['about']">Contact Us</a></li>
             <li><a [routerLink]="['about']">Gallery</a></li>
-            <li><a [routerLink]="['about']">Contact</a></li>
             <li><a [routerLink]="['about']">Quality</a></li>
             <li><a [routerLink]="['about']">Clients</a></li>
             <li><a [routerLink]="['about']">Infrastructure</a></li>

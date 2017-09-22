@@ -35,10 +35,10 @@ export class ProductsComponent implements AfterViewInit, OnInit {
   }
   ngAfterViewInit() {
     (<any>$('.scrollspy')).scrollSpy();
-    /*(<any>$('.carousel-prod')).carousel({ fullWidth: true }, setTimeout(autoplay, 8000));    
+    (<any>$('.carousel-prod')).carousel({ fullWidth: true }, setTimeout(autoplay, 8000));    
     function autoplay() {
       (<any>$('.carousel-prod')).carousel('next');
       setTimeout(autoplay, 8000);
-    }*/
+    }
   }
 }
