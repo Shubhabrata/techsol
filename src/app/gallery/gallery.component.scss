@@ -1,0 +1,25 @@
+.prod-banner-img-container{
+  padding: 5px;
+}
+
+h2{
+  text-align: center;
+  margin: 80px 0 50px 0;
+}
+.prod-banner .prod-banner-img-container{
+  background-color: transparent;
+}
+.gallery{
+  margin-top: 100px;
+  a{
+    padding: 0;
+    overflow: auto;
+    img{
+      width:20%;
+      margin: 20px;
+    }
+  }
+}
+.background-img{
+  padding-top: 47px;
+}

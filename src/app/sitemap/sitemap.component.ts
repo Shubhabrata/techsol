@@ -1,11 +1,11 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 
 @Component({
-  selector: 'my-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.scss']
+  selector: 'my-sitemap',
+  templateUrl: './sitemap.component.html',
+  styleUrls: ['./sitemap.component.scss']
 })
-export class AboutComponent implements OnInit, AfterViewInit {
+export class SitemapComponent implements OnInit, AfterViewInit {
 
   constructor() {
     // Do stuff

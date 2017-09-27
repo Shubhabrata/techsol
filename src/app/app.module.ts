@@ -6,14 +6,24 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { QualityComponent } from './quality/quality.component';
+import { ClientsComponent } from './clients/clients.component';
+import { InfrastructureComponent } from './infrastructure/infrastructure.component';
+import { SitemapComponent } from './sitemap/sitemap.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { GalleryComponent } from './gallery/gallery.component';
 import { ProductsComponent } from './products/products.component';
 import { ProductsHomeComponent } from './products-home/products-home.component';
 import { ServicesComponent } from './services/services.component';
 import { ServicesHomeComponent } from './serviceshome/serviceshome.component';
+import { SupportComponent } from './support/support.component';
 
 import { ApiService } from './shared';
 import { routing } from './app.routing';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'lightbox2/dist/css/lightbox.min.css';
+
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
 
@@ -35,6 +45,14 @@ enableProdMode();
     ProductsHomeComponent,
     ServicesComponent,
     ServicesHomeComponent,
+    GalleryComponent,
+    ContactUsComponent,
+    QualityComponent,
+    ClientsComponent,
+    InfrastructureComponent,
+    SitemapComponent,
+    PrivacyPolicyComponent,
+    SupportComponent,
   ],
   providers: [
     ApiService

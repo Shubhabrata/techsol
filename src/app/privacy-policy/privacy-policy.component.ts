@@ -1,11 +1,11 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 
 @Component({
-  selector: 'my-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.scss']
+  selector: 'my-privacy-policy',
+  templateUrl: './privacy-policy.component.html',
+  styleUrls: ['./privacy-policy.component.scss']
 })
-export class AboutComponent implements OnInit, AfterViewInit {
+export class PrivacyPolicyComponent implements OnInit, AfterViewInit {
 
   constructor() {
     // Do stuff

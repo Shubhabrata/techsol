@@ -1,11 +1,11 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 
 @Component({
-  selector: 'my-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.scss']
+  selector: 'my-gallery',
+  templateUrl: './contact-us.component.html',
+  styleUrls: ['./contact-us.component.scss']
 })
-export class AboutComponent implements OnInit, AfterViewInit {
+export class ContactUsComponent implements OnInit, AfterViewInit {
 
   constructor() {
     // Do stuff

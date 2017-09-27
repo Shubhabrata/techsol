@@ -1,11 +1,11 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 
 @Component({
-  selector: 'my-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.scss']
+  selector: 'my-quality',
+  templateUrl: './quality.component.html',
+  styleUrls: ['./quality.component.scss']
 })
-export class AboutComponent implements OnInit, AfterViewInit {
+export class QualityComponent implements OnInit, AfterViewInit {
 
   constructor() {
     // Do stuff

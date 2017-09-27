@@ -1,11 +1,11 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 
 @Component({
-  selector: 'my-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.scss']
+  selector: 'my-gallery',
+  templateUrl: './clients.component.html',
+  styleUrls: ['./clients.component.scss']
 })
-export class AboutComponent implements OnInit, AfterViewInit {
+export class ClientsComponent implements OnInit, AfterViewInit {
 
   constructor() {
     // Do stuff
@@ -17,6 +17,4 @@ export class AboutComponent implements OnInit, AfterViewInit {
   ngAfterViewInit() {
     (<any>$('.scrollspy')).scrollSpy();
   }
-  
-
 }
