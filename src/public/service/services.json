@@ -479,9 +479,9 @@
       }
     ]
   },
-  "switch-gear-maintenance": {
-    "url": "switch-gear-maintenance",
-    "name": "Switch Gear Maintenance",
+  "switchgear-maintenance": {
+    "url": "switchgear-maintenance",
+    "name": "Switchgear Maintenance",
     "serviceImageUrl": [
       "/img/img-24.jpg",
       "/img/img-22.jpg"

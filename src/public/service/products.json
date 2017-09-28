@@ -399,9 +399,9 @@
       }
     ]
   },
-  "hv-switch-gear": {
-    "url": "hv-switch-gear",
-    "name": "HV Switch Gear",
+  "hv-switchgear": {
+    "url": "hv-switchgear",
+    "name": "HV Switchgear",
     "productImageUrl": [
       "/img/img-24.jpg",
       "/img/img-22.jpg"
@@ -439,9 +439,9 @@
       }
     ]
   },
-  "mv-switch-gear": {
-    "url": "mv-switch-gear",
-    "name": "MV Switch Gear",
+  "mv-switchgear": {
+    "url": "mv-switchgear",
+    "name": "MV Switchgear",
     "productImageUrl": [
       "/img/img-24.jpg",
       "/img/img-22.jpg"
@@ -479,9 +479,9 @@
       }
     ]
   },
-  "lv-switch-gear": {
-    "url": "lv-switch-gear",
-    "name": "LV Switch Gear",
+  "lv-switchgear": {
+    "url": "lv-switchgear",
+    "name": "LV Switchgear",
     "productImageUrl": [
       "/img/img-25.jpg",
       "/img/img-22.jpg"
@@ -639,9 +639,9 @@
       }
     ]
   },
-  "changeover-panels": {
-    "url": "changeover-panels",
-    "name": "Changeover Panels",
+  "changeover-panel": {
+    "url": "changeover-panel",
+    "name": "Changeover Panel",
     "productImageUrl": [
       "/img/img-24.jpg",
       "/img/img-22.jpg"
@@ -839,9 +839,9 @@
       }
     ]
   },
-  "generator-control-panels": {
-    "url": "generator-control-panels",
-    "name": "Generator Control Panels",
+  "generator-control-panel": {
+    "url": "generator-control-panel",
+    "name": "Generator Control Panel",
     "productImageUrl": [
       "/img/img-24.jpg",
       "/img/img-22.jpg"

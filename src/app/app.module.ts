@@ -17,6 +17,9 @@ import { ProductsComponent } from './products/products.component';
 import { ProductsHomeComponent } from './products-home/products-home.component';
 import { ServicesComponent } from './services/services.component';
 import { ServicesHomeComponent } from './serviceshome/serviceshome.component';
+import { FAQComponent } from './faq/faq.component';
+import { ManufacturingProcessComponent } from './manufacturing-process/manufacturing-process.component';
+import { ProductRegistrationComponent } from './product-registration/product-registration.component';
 import { SupportComponent } from './support/support.component';
 
 import { ApiService } from './shared';
@@ -53,6 +56,9 @@ enableProdMode();
     SitemapComponent,
     PrivacyPolicyComponent,
     SupportComponent,
+    FAQComponent,
+    ManufacturingProcessComponent,
+    ProductRegistrationComponent,
   ],
   providers: [
     ApiService

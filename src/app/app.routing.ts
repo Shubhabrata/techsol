@@ -14,6 +14,9 @@ import { InfrastructureComponent } from './infrastructure/infrastructure.compone
 import { SitemapComponent } from './sitemap/sitemap.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { SupportComponent } from './support/support.component';
+import { FAQComponent } from './faq/faq.component';
+import { ProductRegistrationComponent } from './product-registration/product-registration.component';
+import { ManufacturingProcessComponent } from './manufacturing-process/manufacturing-process.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -30,6 +33,9 @@ const routes: Routes = [
   { path: 'sitemap', component: SitemapComponent},
   { path: 'privacy-policy', component: PrivacyPolicyComponent},
   { path: 'support', component: SupportComponent},
+  { path: 'faq', component: FAQComponent},
+  { path: 'product-registration', component: ProductRegistrationComponent},
+  { path: 'manufacturing-process', component: ManufacturingProcessComponent},
 ];
 
 export const routing = RouterModule.forRoot(routes);

@@ -244,7 +244,7 @@ header .header-container{
         text-decoration: none;
         text-transform: initial;
         font-size: 13px;
-        margin: 10px 0;
+        margin: 9px 0;
         display: block;
       }
       a:hover{
@@ -257,7 +257,7 @@ header .header-container{
           display: inline;
           width: 100%;
           padding: 0;
-          margin: 4px 0;
+          margin: 3px 0;
           a{
             color:#ffffff;
             font-size: 13px;
@@ -378,6 +378,7 @@ header{
         margin: 0 !important;
         padding: 5px 10px !important;
         border-bottom: 1px solid #333;
+        height: 99px;
     }
     .whats-new-section ul li p {
         font-size: 13px;
@@ -400,4 +401,8 @@ header{
 .whats-new-head {
     padding-top: 7px;
     display: inline-block;
+}
+.nav-item{
+  margin-top: 25px;
+  overflow: auto;
 }
