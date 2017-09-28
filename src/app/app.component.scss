@@ -85,7 +85,8 @@ background-color: #ffffff;
     padding-top: 30px;
     color: #8d8d8d;
     p{
-      font-size: 12px;
+      font-size: 13px;
+      line-height: 23px;
     }
     a{
       font-size: 12px;
@@ -93,7 +94,7 @@ background-color: #ffffff;
       text-decoration: underline;
     }
     h4{
-      color: #00B6CF;
+      font-size: 14px;
     }
     li{
       display: block;
@@ -235,11 +236,16 @@ header .header-container{
     }
     .nav-item-head{
       color: #00b6cf;
-      font-size: 20px;
+      font-size: 15px;
       font-weight: 100;
+      text-transform: uppercase;
       a{
         color:#ffffff;
         text-decoration: none;
+        text-transform: initial;
+        font-size: 13px;
+        margin: 10px 0;
+        display: block;
       }
       a:hover{
         color:#EB2A2E;
