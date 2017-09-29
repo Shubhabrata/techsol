@@ -32,7 +32,7 @@ footer {
 }
 
 header.container-fluid{
-    background: url(../img/page-header-bg.jpg);
+    background: url(../img/header-bg.png);
     background-size: cover;
 }
 header .header-container{
@@ -211,13 +211,13 @@ background-color: #ffffff;
 /* new design */
 
 header .header-container{
-  background-color: #000000;
+  background: url(../img/head-bg.png);
+  background-size: cover;
+  background-position: center;  
+  //background-color: #000000;
 }
 
 
-.search-container{
-
-}
 .logo{
   width: 24.5%;
     height: 70px;
@@ -253,6 +253,7 @@ header .header-container{
     }
     .nav-items{
       ul{ 
+        float: left;
         li{
           display: inline;
           width: 100%;
@@ -274,7 +275,7 @@ header .header-container{
       float: left;
       margin: 5px 10px;
       a{
-        font-size: 11px;
+        font-size: 12px;
         color: #FFFFFF;
       }
     }
@@ -309,7 +310,7 @@ a.nav-link{
   position: relative;
   input{
     background: #333;
-    width: 376px;
+    width: 320px;
     margin: 0;
     border: 1px solid #75787b;
     color: #fff;

@@ -1,0 +1,36 @@
+.no-gap .block{
+      margin: 10px;
+    padding: 0px;
+    min-height: 640px;
+    .block-body{
+      margin: 40px;
+      ul{
+        padding: 0;
+        li{
+          list-style-type: none;
+          a{
+              line-height: 27px;
+          } 
+        }
+      }
+      h3{
+        padding: 10px 0 20px 0;
+      }
+    }
+}
+h2{
+  text-align: center;
+    margin: 70px;
+    font-size: 50px;
+    font-weight: 100;
+}
+.block-head{
+  h3{
+      position: absolute;
+      color: #FFFFFF !important;
+      top: 0;
+      left: 40px;
+      font-size: 40px;
+      font-weight: 700 !important;
+  }
+}

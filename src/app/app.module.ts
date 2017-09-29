@@ -21,6 +21,10 @@ import { FAQComponent } from './faq/faq.component';
 import { ManufacturingProcessComponent } from './manufacturing-process/manufacturing-process.component';
 import { ProductRegistrationComponent } from './product-registration/product-registration.component';
 import { SupportComponent } from './support/support.component';
+import { TermsOfUseComponent } from './terms-of-use/terms-of-use.component';
+import { SolutionsHomeComponent } from './solutions-home/solutions-home.component';
+import { SupportHomeComponent } from './support-home/support-home.component';
+
 
 import { ApiService } from './shared';
 import { routing } from './app.routing';
@@ -59,6 +63,9 @@ enableProdMode();
     FAQComponent,
     ManufacturingProcessComponent,
     ProductRegistrationComponent,
+    TermsOfUseComponent,
+    SolutionsHomeComponent,
+    SupportHomeComponent,
   ],
   providers: [
     ApiService

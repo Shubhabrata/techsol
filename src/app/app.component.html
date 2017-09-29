@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <div class="row">
+          <div class="">
             <a [routerLink]="['/']">
               <div class="logo pull-left"></div>
             </a>
@@ -20,7 +20,18 @@
               </div>
               <div class="nav-bottom">
                 <ul>
-                  <li class="nav-link" [class.show-nav]="productsMouseOvered" (mouseover)="productsMouseOvered=true; servicesMouseOvered=false"><a href="#" [routerLink]="['products-home']" class="nav-link">Product <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+
+
+
+
+
+
+
+
+
+
+
+                  <li class="nav-link" [class.show-nav]="productsMouseOvered" (mouseover)="productsMouseOvered=true; servicesMouseOvered=false; solutionsMouseOvered=false; supportMouseOvered=false; "><a href="#" [routerLink]="['products-home']" class="nav-link">Products <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                     <div class="nav-details-container" (mouseleave)="productsMouseOvered=false; servicesMouseOvered=false">
                       <div class="container">
                         <div class="row">
@@ -125,7 +136,102 @@
                       </div>
                     </div>
                   </li>
-                  <li class="nav-link" [class.show-nav]="servicesMouseOvered" (mouseover)="servicesMouseOvered=true; productsMouseOvered=false;"><a href="#" [routerLink]="['services-home']" class="nav-link">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+
+
+
+
+
+
+
+
+                  <li class="nav-link" [class.show-nav]="solutionsMouseOvered" (mouseover)="supportMouseOvered=false; servicesMouseOvered=false; productsMouseOvered=false; solutionsMouseOvered=true;"><a href="#" [routerLink]="['support-home']" class="nav-link">Solutions <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                    <div class="nav-details-container" (mouseleave)="productsMouseOvered=false; servicesMouseOvered=false; supportMouseOvered=false; solutionsMouseOvered=false;">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-md-3 row">
+                            <div class="whats-new-section ">
+                              <strong><span class="whats-new-head">What's New</span></strong>
+                              <ul>
+                                <li class="no-click-close">
+                                  <a href="#" class="no-click-close"><strong>Lorem ipsum dolor</strong>
+                                    <p>Cras interdum, velit in viverra vehicula, sem nisl mattis orci, quis congue.</p></a>
+                                </li>
+                                <li class="no-click-close">
+                                  <a href="#" class="no-click-close">
+                                      <strong>Commodo vehicula vivamus.</strong>
+                                      <p>Vivamus ut enim libero. Cras interdum, velit in viverra vehicula, sem nisl mattis orci, quis congue.</p>
+                                    </a>
+                                </li>
+                                <li class="no-click-close">
+                                  <a href="#" class="no-click-close"> <strong>Tortor ante non augue</strong>
+                                      <p>Velit in viverra vehicula, sem nisl mattis orci, quis congue tortor</p>
+                                    </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-9 nav-items">
+                            <div class="col-md-5">
+                            </div>
+                            <div class="col-md-4">
+                              <div class="nav-item">
+                                <div class="nav-item-head">
+                                  Electrical Solutions
+                                </div>
+                                <ul>
+                                  <li><a [routerLink]="['/services', 'data-center-solution']" href="#">Data Center Solution</a></li>
+                                </ul>
+                              </div>
+                              <div class="nav-item">
+                                <div class="nav-item-head">
+                                  Repairing &amp; Maintenance
+                                </div>
+                                <ul>
+                                  <li><a [routerLink]="['/services', 'substation-repairing-maintenance']" href="#">Substation</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-md-3">
+                              <div class="nav-item">
+                                <div class="nav-item-head">
+                                  Head
+                                </div>
+                                <ul>
+                                  <li><a [routerLink]="['/services', 'site-testing-and-commissioning']" href="#">Site Testing and Commissioning</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  <li class="nav-link" [class.show-nav]="servicesMouseOvered" (mouseover)="servicesMouseOvered=true; productsMouseOvered=false; solutionsMouseOvered=false; supportMouseOvered=false;"><a href="#" [routerLink]="['services-home']" class="nav-link">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                     <div class="nav-details-container" (mouseleave)="productsMouseOvered=false; servicesMouseOvered=false">
                       <div class="container">
                         <div class="row">
@@ -159,7 +265,6 @@
                                 </div>
                                 <ul>
                                   <li><a [routerLink]="['/services', 'engineering-procurement-and-construction-epc']" href="#">Engineering, Procurement, and Construction (EPC)</a></li>
-                                  <li><a [routerLink]="['/services', 'data-center-solution']" href="#">Data Center Solution</a></li>
                                   <li><a [routerLink]="['/services', 'engineering-and-consultancy']" href="#">Engineering and Consultancy</a></li>
                                   <li><a [routerLink]="['/services', 'turnkey-services']" href="#">Turnkey Services</a></li>
                                   <li><a [routerLink]="['/services', 'emergency-service-and-support']" href="#">Emergency Service and Support</a></li>
@@ -214,7 +319,100 @@
                       </div>
                     </div>
                   </li>
-                  <li><a [routerLink]="['gallery']">Gallery</a></li>
+
+
+
+
+
+                  <li class="nav-link" [class.show-nav]="supportMouseOvered" (mouseover)="supportMouseOvered=true; servicesMouseOvered=false; productsMouseOvered=false; solutionsMouseOvered=false;"><a href="#" [routerLink]="['support-home']" class="nav-link">Support <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                    <div class="nav-details-container" (mouseleave)="productsMouseOvered=false; servicesMouseOvered=false; supportMouseOvered=false; solutionsMouseOvered=false;">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-md-3 row">
+                            <div class="whats-new-section ">
+                              <strong><span class="whats-new-head">What's New</span></strong>
+                              <ul>
+                                <li class="no-click-close">
+                                  <a href="#" class="no-click-close"><strong>Lorem ipsum dolor</strong>
+                                    <p>Cras interdum, velit in viverra vehicula, sem nisl mattis orci, quis congue.</p></a>
+                                </li>
+                                <li class="no-click-close">
+                                  <a href="#" class="no-click-close">
+                                      <strong>Commodo vehicula vivamus.</strong>
+                                      <p>Vivamus ut enim libero. Cras interdum, velit in viverra vehicula, sem nisl mattis orci, quis congue.</p>
+                                    </a>
+                                </li>
+                                <li class="no-click-close">
+                                  <a href="#" class="no-click-close"> <strong>Tortor ante non augue</strong>
+                                      <p>Velit in viverra vehicula, sem nisl mattis orci, quis congue tortor</p>
+                                    </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-9 nav-items">
+                            <div class="col-md-5">
+                              <div class="nav-item">
+                                <div class="nav-item-head">
+                                  Downloads - rockwell automation
+                                </div>
+                                <ul>
+                                  <li><a [routerLink]="['/services', 'engineering-procurement-and-construction-epc']" href="#">Technical Data Sheet</a></li>
+                                  <li><a [routerLink]="['/services', 'engineering-procurement-and-construction-epc']" href="#">Product Catalog</a></li>
+                                  <li><a [routerLink]="['/services', 'engineering-procurement-and-construction-epc']" href="#">Drawings</a></li>
+                                  <li><a [routerLink]="['/services', 'engineering-procurement-and-construction-epc']" href="#">Technical Specifications</a></li>
+                                  <li><a [routerLink]="['/services', 'engineering-procurement-and-construction-epc']" href="#">Brochure</a></li>
+                                  <li><a [routerLink]="['/services', 'engineering-procurement-and-construction-epc']" href="#">Sample Code</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-md-4">
+                              <div class="nav-item">
+                                <div class="nav-item-head">
+                                  Literature
+                                </div>
+                                <ul>
+                                  <li><a [routerLink]="['/services', 'sub-station-installation']" href="#">Certifications</a></li>
+                                  <li><a [routerLink]="['/services', 'sub-station-installation']" href="#">Industries</a></li>
+                                  <li><a [routerLink]="['/services', 'sub-station-installation']" href="#">Products</a></li>
+                                  <li><a [routerLink]="['/services', 'sub-station-installation']" href="#">Solutions</a></li>
+                                  <li><a [routerLink]="['/services', 'sub-station-installation']" href="#">Services</a></li>
+                                </ul>
+                              </div>
+
+                            </div>
+                            <div class="col-md-3">
+                              <div class="nav-item">
+                                <div class="nav-item-head">
+                                  Tools
+                                </div>
+                                <ul>
+                                  <li><a [routerLink]="['/services', 'substation-repairing-maintenance']" href="#">Product Registration</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </ul>
               </div>
             </div>
@@ -238,10 +436,9 @@
           <ul>
             <li><a [routerLink]="['about']">About Us</a></li>
             <li><a [routerLink]="['contact-us']">Contact Us</a></li>
-            <li><a [routerLink]="['gallery']">Gallery</a></li>
-            <li><a [routerLink]="['quality']">Design &amp; Quality</a></li>
+            <!--<li><a [routerLink]="['gallery']">Activity Gallery</a></li> should be fetched from FB-->
+            <li><a [routerLink]="['quality']">Quality</a></li>
             <li><a [routerLink]="['clients']">Clients</a></li>
-            <li><a [routerLink]="['infrastructure']">Infrastructure</a></li>
             <li><a [routerLink]="['manufacturing-process']">Manufacturing Process</a></li>
             <li><a [routerLink]="['faq']">FAQ</a></li>
             <li><a [routerLink]="['product-registration']">Product Registration</a></li>
@@ -271,7 +468,7 @@
             <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
             <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
             <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-linkedin-square fa-3x social"></i></a>
-            <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-envelope-square fa-3x social"></i></a>
+            <a href="mailto:?subject=I wanted you to see this site&amp;body=Check out this site http://www.techsolbd.com" title="Share by Email"><i id="social-gp" class="fa fa-envelope-square fa-3x social"></i></a>
           </div>
         </div>
 
@@ -285,7 +482,10 @@
           &copy; 2017 Techsol Engineering Limited.
         </div>
         <div class="col-md-6" style="text-align:right">
-          <a [routerLink]="['privacy-policy']">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a [routerLink]="['sitemap']">Sitemap</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+          <a [routerLink]="['terms-of-use']">Terms of use</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a [routerLink]="['privacy-policy']">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a [routerLink]="['sitemap']">Sitemap</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a [routerLink]="['support']">Support</a>
         </div>
       </div>

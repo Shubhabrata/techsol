@@ -1,18 +1,28 @@
 <div class="container-fluid page-head">
   <div class="container" style="top: 96px;">
-    <div class="row">
+    <div class="">
       <div class="col-md-6">
         <div class="topic-description">
-          <h1 class="primary-headline">Energy &amp; Resources</h1>
-          <p class="body-copy">Deloitte’s India Energy &amp; Resources specialists provide comprehensive, integrated solutions to all segments
-            of the Power, Oil and Gas and Mining sectors. We offer clients exceptionally detailed industry knowledge and
-            a global network, alongside local market delivery.</p>
+          <h1 class="primary-headline">Electricity &amp; Power</h1>
+          <p class="body-copy">Techsol’s Electricity &amp; Power specialists provide comprehensive, integrated solutions to all segments of the
+            Power sectors.</p>
         </div>
       </div>
       <div class="topic-img col-md-6">
-
-        <img class="img-full-width" src="/img/107473-artwork-fantasy_art-abstract-fire-lightbulb-fingers-electricity-digital_art-simple_background.jpg"
-        />
+        <div class="carousel carousel-home carousel-slider center" data-indicators="true">
+          <div class="carousel-item">
+            <img class="img-full-width" style="padding-right: 5px;" src="/img/homepage-img/transformer.jpg" />
+          </div>
+          <div class="carousel-item">
+            <img class="img-full-width" style="padding-right: 5px;" src="/img/homepage-img/worker.jpg" />
+          </div>
+          <div class="carousel-item">
+            <img class="img-full-width" style="padding-right: 5px;" src="/img/homepage-img/worker2.jpg" />
+          </div>
+          <div class="carousel-item">
+            <img class="img-full-width" style="padding-right: 5px;" src="/img/homepage-img/control-panel.jpg" />
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -25,13 +35,14 @@
         <div class="col-sm-6">
           <div class="block block-type-1">
             <div class="block-head">
-              <img src="/img/img-14.jpg" class="img-full-width" />
-              <h3><a [routerLink]="['about']">About Us</a></h3>
+              <img src="/img/homepage-img/img-29.jpg" class="img-full-width" />
+              <h3><a [routerLink]="['about']">Who we are</a></h3>
             </div>
             <div class="block-body">
               <p>Deloitte’s India Energy &amp; Resources specialists provide comprehensive, integrated solutions to all segments
                 of the Power, Oil and Gas and Mining sectors. We offer clients exceptionally detailed industry knowledge
                 and a global network, alongside local market delivery.</p>
+              <a class="read-more" [routerLink]="['about-us']">Read More &gt;</a>
             </div>
           </div>
         </div>
@@ -39,21 +50,33 @@
           <div class="block block-type-1">
             <div class="block-head">
               <img src="/img/img-15.jpg" class="img-full-width" />
-              <h3>Factory</h3>
+              <h3><a [routerLink]="['infrastructure']">What we do</a></h3>
             </div>
             <div class="block-body">
               <p>Deloitte’s India Energy &amp; Resources specialists provide comprehensive, integrated solutions to all segments
                 of the Power, Oil and Gas and Mining sectors. We offer clients exceptionally detailed industry knowledge
                 and a global network, alongside local market delivery.</p>
+              <a class="read-more" [routerLink]="['infrastructure']">Read More &gt;</a>
             </div>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-12">
-          <div class="block">
+          <div class="block" style="padding: 0;">
             <div class="block-body video-container">
-              <iframe src="https://www.youtube.com/embed/d0BmOaOP7JU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen class="video"></iframe>
+              <div class="block-head" style="position: absolute;z-index: 1;margin: 20px;">
+                <h3 style="margin-top: 0; color:#FFFFFF;"><a [routerLink]="['manufacturing-process']" style="color:#FFFFFF;">Manufacturing Process</a></h3>
+              </div>
+              <div class="row">
+                <div class="col-md-9">
+                  <img src="/img/homepage-img/man-process2.jpg" class="img-full-width" />
+                </div>
+                <div class="col-md-3">
+                  <p>describe the process in breef. </p><a style="padding-left: 18px;" class="read-more" [routerLink]="['manufacturing-process']">Read More &gt;</a>
+                </div>
+              </div>
+              <!--<iframe src="https://www.youtube.com/embed/d0BmOaOP7JU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen class="video"></iframe>-->
             </div>
           </div>
         </div>
@@ -68,13 +91,14 @@
         <div class="col-sm-12">
           <div class="block block-type-3">
             <div class="block-head">
-              <h3>Quality Assurance</h3>
+              <h3 style="margin-top: 0;"><a [routerLink]="['quality']">Quality Assurance</a></h3>
             </div>
             <div class="block-body">
               <p>Deloitte’s India Energy &amp; Resources specialists provide comprehensive, integrated solutions to all segments
                 of the Power, Oil and Gas and Mining sectors. We offer clients exceptionally detailed industry knowledge
                 and a global network, alongside local market delivery.</p>
-              <img src="/img/img-16.jpg" class="img-full-width" />
+              <a class="read-more" [routerLink]="['quality']">Read More &gt;</a>
+              <img style="position: absolute;left: 0;padding: 15px;bottom: 0;" src="/img/img-16.jpg" class="img-full-width" />
             </div>
           </div>
         </div>
@@ -87,19 +111,24 @@
 
       <div class="block block-type-4">
         <div class="block-head">
-          <h3>News</h3>
+          <h3 style="margin-top: 0;"><a [routerLink]="['product-registration']">Product Registration</a></h3>
         </div>
         <div class="block-body">
-          <p>Deloitte’s India Energy &amp; Resources specialists provide comprehensive, integrated solutions to all segments
-            of the Power, Oil and Gas and Mining sectors. We offer clients exceptionally detailed industry knowledge and
-            a global network, alongside local market delivery.</p>
+          <p>Registration has benefits</p>
+          <ul>
+            <li>Service and Support</li>
+            <li>Recall Notifications</li>
+            <li>Extended Warranty</li>
+          </ul>
+
+          <input type="button" value="Register your product" />
         </div>
       </div>
     </div>
     <div class="col-sm-8">
       <div class="block block-type-4 testimonial">
         <div class="block-head">
-          <h3>Testimonial</h3>
+          <h3 style="margin-top: 0;">Testimonial</h3>
         </div>
         <div class="block-body">
           <div class="carousel carousel-home carousel-slider center" data-indicators="true">
@@ -136,6 +165,170 @@
                 <i>- Shubhabrata Das</i> | <i>Deloitte</i>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block" style="text-align:center;">
+          <div class="block-head">
+            <h3 style="margin-top: 0;"><a [routerLink]="['clients']">We proudly served</a></h3>
+          </div>
+          <div class="block-body">
+            <div class="client-logo">
+              <div class="v-center">
+                <a href="https://www.robi.com.bd" target="_blank">
+              <img src="/img/homepage-img/robi-logo.png" class="img-full-width"/>
+              <span>Robi Axiata Limited</span>
+            </a>
+              </div>
+            </div>
+
+            <div class="client-logo">
+              <div class="v-center">
+                <a href="http://www.chevronbangladesh.com/" target="_blank">
+                                          <img src="/img/homepage-img/chevron.jpg" class="img-full-width"/>
+                                          <span>Chevron Corporation</span>
+                                        </a>
+              </div>
+            </div>
+            <div class="client-logo">
+              <div class="v-center">
+                <a href="http://www.tusuka.com/" target="_blank">
+                                <img src="/img/homepage-img/tusuka.jpg" class="img-full-width"/>
+                                <span>Tusuka</span>
+                              </a>
+              </div>
+            </div>
+
+
+            <div class="client-logo">
+              <div class="v-center">
+                <a href="http://www.ifadgroup.com/" target="_blank">
+                                <img src="/img/homepage-img/ifad.png" style="width: 85px; padding: 15px 0;" class="img-full-width"/>
+                                <span>Ifad Group</span>
+                              </a>
+              </div>
+            </div>
+
+            <div class="client-logo">
+              <div class="v-center">
+                <a href="http://edotcogroup.com/" target="_blank">
+                          <img src="/img/homepage-img/edotco.png" class="img-full-width"/>
+                          <span>edotco Group Sdn Bhd</span>
+                        </a>
+              </div>
+            </div>
+
+            <div class="client-logo">
+                <div class="v-center">
+                  <a href="http://vipindustries.co.in/" target="_blank">
+                                  <img src="/img/homepage-img/vip.png" class="img-full-width"/>
+                                  <span>V.I.P. Industries</span>
+                                </a>
+                </div>
+              </div>            
+
+            <div class="client-logo">
+              <div class="v-center">
+                <a href="https://flynovoair.com" target="_blank">
+                  <img src="/img/homepage-img/novoair.jpg" style="width: 105px;" class="img-full-width"/>
+                  <span>Novoair</span>
+                </a>
+              </div>
+            </div>
+            <div class="client-logo">
+              <div class="v-center">
+                <a href="http://somoynews.tv" target="_blank">
+                    <img src="/img/homepage-img/somoy.png" class="img-full-width"/>
+                    <span>Somoy Media Limited</span>
+                  </a>
+              </div>
+            </div>
+
+            <div class="client-logo">
+              <div class="v-center">
+                <a href="https://www.novotel-bd.com/" target="_blank">
+                        <img src="/img/homepage-img/novotel.png" class="img-full-width"/>
+                        <span>NoteTel Limited</span>
+                      </a>
+              </div>
+            </div>
+            <div class="client-logo">
+              <div class="v-center">
+                <a href="https://www.sml.com/" target="_blank">
+                          <img src="/img/homepage-img/sml.png" class="img-full-width"/>
+                          <span>SML Group</span>
+                        </a>
+              </div>
+            </div>
+            <div class="client-logo">
+              <div class="v-center">
+                <a href="http://www.britanniapackaging.com/" target="_blank">
+                            <img style="width: 65px;" src="/img/homepage-img/britannia.jpg" class="img-full-width"/>
+                            <span>Britannia</span>
+                          </a>
+              </div>
+            </div>
+
+
+            
+            <div class="client-logo">
+              <div class="v-center">
+                <a href="http://www.summitcommunications.net/" target="_blank">
+                                  <img src="/img/homepage-img/summit.png" class="img-full-width"/>
+                                  <span>Summit Grooup</span>
+                                </a>
+              </div>
+            </div>
+            <div class="client-logo">
+              <div class="v-center">
+                <a href="http://www.aci-bd.com/" target="_blank">
+                                    <img style="width: 70px;" src="/img/homepage-img/aci.png" class="img-full-width"/>
+                                    <span>ACI Limited</span>
+                                  </a>
+              </div>
+            </div>
+
+            <div class="client-logo">
+              <div class="v-center">
+                <a href="http://www.mohammadigroup.com/" target="_blank">
+                                      <img src="/img/homepage-img/mg.jpg" class="img-full-width"/>
+                                      <span>Mohammadi Group</span>
+                                    </a>
+              </div>
+            </div>
+
+
+
+            <div class="client-logo">
+              <div class="v-center">
+                <img src="/img/homepage-img/dishang.jpg" class="img-full-width" />
+                <span>Dishang sweater ltd</span>
+              </div>
+            </div>
+
+            <div class="client-logo">
+              <div class="v-center">
+                <a href="https://www.mottmac.com/" target="_blank">
+                                          <img src="/img/homepage-img/mm.jpg" class="img-full-width"/>
+                                          <span>Mott MacDonald</span>
+                                        </a>
+              </div>
+            </div>
+
+
+            <div class="client-logo">
+              <div class="v-center">
+                <a href="http://www.bepza.gov.bd/" target="_blank">
+                                            <img src="/img/homepage-img/bepza.png" class="img-full-width"/>
+                                            <span>BEPZA</span>
+                                          </a>
+              </div>
+            </div>
+
+
           </div>
         </div>
       </div>

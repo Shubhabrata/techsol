@@ -103,12 +103,14 @@ p {
                 line-height: 1.2;
                 color: #fff;
                 margin-bottom: 22px;
+                margin-top: 50px;
             }
             p {
                 color: #fff;
-                line-height: 23px;
-                font-size: 16px;
-            }
+                line-height: 40px;
+                font-size: 22px;
+                font-weight: 100;
+                margin-right: 50px;            }
         }
     }
 }
@@ -124,6 +126,14 @@ p {
         padding: 10px;     
         h2, h3{
             color: #25abc6;
+            margin: 25px 0 14px 0;
+            a{
+                color: #25abc6;
+                text-decoration: none;
+            }
+            a:hover{
+                color: #25abc6;
+            }
     font-weight: 100;
         }
     }
@@ -169,6 +179,7 @@ p {
 .breadcrumb{
     background-color:#2f2f2f !important;
     margin: 5px 0 !important;
+    padding-left: 0 !important;
 }
 
 .page-nav{
@@ -357,9 +368,26 @@ $carousel-item-width: $carousel-item-height !default;
     color: #FFFFFF;
     a{
         color:#FFFFFF;
+        padding:0 5px;
+    }
+    a:hover{
+        color:#EB2A2E;
+        text-decoration: none;
+
     }
 }
 h2{
     font-weight: 100 !important;
     
+}
+.read-more{
+    margin-bottom: 17px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+}
+p{
+    text-align: justify;
+    font-size: 18px;
 }

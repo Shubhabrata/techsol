@@ -17,6 +17,10 @@ import { SupportComponent } from './support/support.component';
 import { FAQComponent } from './faq/faq.component';
 import { ProductRegistrationComponent } from './product-registration/product-registration.component';
 import { ManufacturingProcessComponent } from './manufacturing-process/manufacturing-process.component';
+import { TermsOfUseComponent } from './terms-of-use/terms-of-use.component';
+import { SolutionsHomeComponent } from './solutions-home/solutions-home.component';
+import { SupportHomeComponent } from './support-home/support-home.component';
+
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -36,6 +40,9 @@ const routes: Routes = [
   { path: 'faq', component: FAQComponent},
   { path: 'product-registration', component: ProductRegistrationComponent},
   { path: 'manufacturing-process', component: ManufacturingProcessComponent},
+  { path: 'terms-of-use', component: TermsOfUseComponent},
+  { path: 'solutions-home', component: SolutionsHomeComponent},
+  { path: 'support-home', component: SupportHomeComponent},
 ];
 
 export const routing = RouterModule.forRoot(routes);
