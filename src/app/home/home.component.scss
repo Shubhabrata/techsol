@@ -272,26 +272,6 @@ width: 174px;
         margin-left: 20px !important;
     }
 }
-.client-logo{
-    width: 105px;
-    display: inline-block;
-    border: 2px solid #E8EAE9;
-    padding: 10px;
-    text-align: center;
-    margin-right: 10px;
-    height: 135px;
-    position: relative;
-    margin-bottom: 10px;
-    .v-center{
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        img{
-            padding: 15px;
-            margin-bottom: 5px;
-        }    
-    }
-}
 .body-copy{
     font-family: 'Yanone Kaffeesatz', sans-serif;    
 }

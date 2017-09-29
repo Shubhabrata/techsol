@@ -24,7 +24,7 @@ import { SupportComponent } from './support/support.component';
 import { TermsOfUseComponent } from './terms-of-use/terms-of-use.component';
 import { SolutionsHomeComponent } from './solutions-home/solutions-home.component';
 import { SupportHomeComponent } from './support-home/support-home.component';
-
+import { SolutionsComponent } from './solutions/solutions.component';
 
 import { ApiService } from './shared';
 import { routing } from './app.routing';
@@ -66,6 +66,7 @@ enableProdMode();
     TermsOfUseComponent,
     SolutionsHomeComponent,
     SupportHomeComponent,
+    SolutionsComponent,
   ],
   providers: [
     ApiService

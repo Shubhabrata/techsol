@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { GalleryComponent } from './contact-us.component';
+import { ContactUsComponent } from './contact-us.component';
 
 describe('Contact Us Component', () => {
   beforeEach(() => {

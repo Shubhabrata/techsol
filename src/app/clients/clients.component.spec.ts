@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { GalleryComponent } from './clients.component';
+import { ClientsComponent } from './clients.component';
 
 describe('Clients Component', () => {
   beforeEach(() => {

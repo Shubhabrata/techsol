@@ -20,6 +20,7 @@ import { ManufacturingProcessComponent } from './manufacturing-process/manufactu
 import { TermsOfUseComponent } from './terms-of-use/terms-of-use.component';
 import { SolutionsHomeComponent } from './solutions-home/solutions-home.component';
 import { SupportHomeComponent } from './support-home/support-home.component';
+import { SolutionsComponent } from './solutions/solutions.component';
 
 
 const routes: Routes = [
@@ -27,6 +28,7 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent},
   { path: 'products/:name', component: ProductsComponent},
   { path: 'services/:name', component: ServicesComponent},
+  { path: 'solutions/:name', component: SolutionsComponent},
   { path: 'products-home', component: ProductsHomeComponent},
   { path: 'services-home', component: ServicesHomeComponent},
   { path: 'gallery', component: GalleryComponent},

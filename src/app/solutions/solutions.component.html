@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="breadcrumb "><a [routerLink]="['/']">Home</a> <i class="fa fa-chevron-right" aria-hidden="true"></i> <a [routerLink]="['/services-home']">Services</a> <i class="fa fa-chevron-right" aria-hidden="true"></i> {{service?.name}}</div>
+                    <div class="breadcrumb "><a [routerLink]="['/']">Home</a> <i class="fa fa-chevron-right" aria-hidden="true"></i> <a [routerLink]="['/solutions-home']">Solutions</a> <i class="fa fa-chevron-right" aria-hidden="true"></i> {{solution?.name}}</div>
                 </div>
             </div>
         </div>
@@ -24,7 +24,7 @@
     </div>
 </div>
 
-<div class="container-fluid background-img" [style.background]="'url(' + service?.headImage + ')'">
+<div class="container-fluid background-img" [style.background]="'url(' + solution?.headImage + ')'">
     <div class="container-fluid background-cover">
         <div class="container" style="top: 96px;">
             <div class="row">
@@ -32,15 +32,15 @@
                     <div class="prod-banner">
                         <div class="col-md-8">
                             <div class="prod-banner-text">
-                                <h1>{{service?.name}}</h1>
-                                <p>{{service?.description}}</p>
+                                <h1>{{solution?.name}}</h1>
+                                <p>{{solution?.description}}</p>
                             </div>
                         </div>
                         <div class="col-md-4 prod-banner-img">
                             <div class="prod-banner-img-container">
-                                <div class="carousel carousel-services carousel-slider center" data-indicators="true">
-                                    <div class="carousel-item" *ngFor="let serviceImgUrl of service?.serviceImageUrl">
-                                        <img src="{{serviceImgUrl}}" class="img-full-width" />
+                                <div class="carousel carousel-solutions carousel-slider center" data-indicators="true">
+                                    <div class="carousel-item" *ngFor="let solutionImgUrl of solution?.solutionImageUrl">
+                                        <img src="{{solutionImgUrl}}" class="img-full-width" />
                                     </div>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@
                 <div class="row">
                     <div class="col-md-12 scrollspy section" id="overview">
                         <h2>Overview</h2>
-                        <p>{{service?.overview}}</p>
+                        <p>{{solution?.overview}}</p>
                     </div>
 
                     <div class="col-md-12 scrollspy section" id="features">
@@ -70,7 +70,7 @@
                         <div class="features">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <p innerHTML="{{service?.features}}"></p>
+                                    <p innerHTML="{{solution?.features}}"></p>
                                 </div>
                             </div>
                         </div>
@@ -78,13 +78,13 @@
 
                     <div class="col-md-12 scrollspy section" id="benefits">
                         <h2>Benefits</h2>
-                        <p>{{service?.benefits}}</p>
+                        <p>{{solution?.benefits}}</p>
                     </div>
 
                     <div class="col-md-12 scrollspy section" id="downloads">
                         <h2>Downloads</h2>
                         <table>
-                            <tr class="resources" *ngFor="let resource of service?.resources">
+                            <tr class="resources" *ngFor="let resource of solution?.resources">
                                 <td>
                                     <h4>{{resource.name}}</h4>
                                 </td>
@@ -95,7 +95,7 @@
                     <div class="col-md-12 scrollspy section" id="contacts">
 
                         <h2>Contacts</h2>
-                        <div class="contacts" *ngFor="let contact of service?.contacts">
+                        <div class="contacts" *ngFor="let contact of solution?.contacts">
                             <h4>{{contact.name}}</h4>
                             <div>{{contact.designation}}</div>
                             <div>{{contact.phone}}</div>
@@ -105,12 +105,12 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <h2>More Services</h2>
+                        <h2>More Solutions</h2>
                     </div>
-                    <div class="col-md-4" *ngFor="let relatedService of service?.relatedServices">
+                    <div class="col-md-4" *ngFor="let relatedSolution of solution?.relatedSolutions">
                         <div class="relate-prod">
-                            <a href="{{relatedService.link}}"><img src="{{relatedService.imageUrl}}" class="img-full-width"/></a>
-                            <h3><a href="{{relatedService.link}}">{{relatedService.name}}</a></h3>
+                            <a href="{{relatedSolution.link}}"><img src="{{relatedSolution.imageUrl}}" class="img-full-width"/></a>
+                            <h3><a href="{{relatedSolution.link}}">{{relatedSolution.name}}</a></h3>
                         </div>
                     </div>
                 </div>

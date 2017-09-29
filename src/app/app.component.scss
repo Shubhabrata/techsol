@@ -32,8 +32,6 @@ footer {
 }
 
 header.container-fluid{
-    background: url(../img/header-bg.png);
-    background-size: cover;
 }
 header .header-container{
   background-color: rgba(255,255,255,0.7);
@@ -239,6 +237,7 @@ header .header-container{
       font-size: 15px;
       font-weight: 100;
       text-transform: uppercase;
+      margin: 0 9px;
       a{
         color:#ffffff;
         text-decoration: none;
@@ -248,24 +247,28 @@ header .header-container{
         display: block;
       }
       a:hover{
-        color:#EB2A2E;
+        color:#00b6cf;
       }
     }
     .nav-items{
       ul{ 
         float: left;
+        width: 100%;
         li{
-          display: inline;
-          width: 100%;
+          display: inline-block;
           padding: 0;
-          margin: 3px 0;
+          margin: 0;
+          width: 100%;
           a{
             color:#ffffff;
             font-size: 13px;
             text-decoration: none;
+            padding: 3px 10px;
+            display: inline-block;
+            width: 100%;
           }
           a:hover{
-            color:#EB2A2E;
+            background-color: #282828;
           }
         }
       }
@@ -358,11 +361,11 @@ header{
     top: 86px;
     left: 0;
     right: 0;
-    background-color: #393939;
+    background-color: rgba(57,57,57,.97);
     transition: opacity 0.2s ease-out;
     opacity: 0;    
     visibility: hidden;
-    
+    border-bottom: 1px solid #a3a3a3;
     .whats-new-section strong {
         padding-left: 4%;
         padding-right: 4%;
@@ -395,6 +398,9 @@ header{
 .whats-new-section {
     background-color: #1C1C1C;
     overflow: auto;
+    p{
+      text-align: left;
+    }
 }
 .whats-new-section ul li:hover {
     background-color: #2C2C2C;
@@ -406,4 +412,11 @@ header{
 .nav-item{
   margin-top: 25px;
   overflow: auto;
+}
+.nav-col{
+  height: 326px;  
+  padding: 0;
+}
+.nav-col:hover{
+  background-color: #2e2e2e;
 }

@@ -1,0 +1,578 @@
+{
+  "engineering-procurement-and-construction-epc": {
+    "url": "engineering-procurement-and-construction-epc",
+    "name": "Engineering Procurement and Construction (EPC)",
+    "serviceImageUrl": [
+      "/img/img-24.jpg",
+      "/img/img-22.jpg"
+    ],
+    "headImage": "/img/EPC.jpg",
+    "description": "Description: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "overview": "Overview: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "features": "Features:  <ul><li>96.5% high efficiency eSure rectifiers</li><li>Modular design allows for incremental cost-effective system growth</li>",
+    "benefits": "Specification: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "resources": [
+      {
+        "name": "Design Document",
+        "link": "/download/img-22.pdf"
+      },
+      {
+        "name": "Catalog",
+        "link": "/download/img-21.pdf"
+      }
+    ],
+    "contacts": [
+      {
+        "name": "X-Man",
+        "designation": "Hero",
+        "phone": "1234567890",
+        "email": "sdas@techsol.com"
+      }
+    ],
+    "relatedServices": [
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      }
+    ]
+  },
+  "engineering-and-consultancy": {
+    "url": "engineering-and-consultancy",
+    "name": "Engineering and Consultancy",
+    "serviceImageUrl": [
+      "/img/img-24.jpg",
+      "/img/img-22.jpg"
+    ],
+    "headImage": "/img/img-36.jpg",
+    "description": "Description: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "overview": "Overview: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "features": "Features:  <ul><li>96.5% high efficiency eSure rectifiers</li><li>Modular design allows for incremental cost-effective system growth</li>",
+    "benefits": "Specification: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "resources": [
+      {
+        "name": "Design Document",
+        "link": "/download/img-22.pdf"
+      },
+      {
+        "name": "Catalog",
+        "link": "/download/img-21.pdf"
+      }
+    ],
+    "contacts": [
+      {
+        "name": "X-Man",
+        "designation": "Hero",
+        "phone": "1234567890",
+        "email": "sdas@techsol.com"
+      }
+    ],
+    "relatedServices": [
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      }
+    ]
+  },
+  "turnkey-services": {
+    "url": "turnkey-services",
+    "name": "Turnkey Services",
+    "serviceImageUrl": [
+      "/img/img-24.jpg",
+      "/img/img-22.jpg"
+    ],
+    "headImage": "/img/img-37.png",
+    "description": "Description: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "overview": "Overview: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "features": "Features:  <ul><li>96.5% high efficiency eSure rectifiers</li><li>Modular design allows for incremental cost-effective system growth</li>",
+    "benefits": "Specification: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "resources": [
+      {
+        "name": "Design Document",
+        "link": "/download/img-22.pdf"
+      },
+      {
+        "name": "Catalog",
+        "link": "/download/img-21.pdf"
+      }
+    ],
+    "contacts": [
+      {
+        "name": "X-Man",
+        "designation": "Hero",
+        "phone": "1234567890",
+        "email": "sdas@techsol.com"
+      }
+    ],
+    "relatedServices": [
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      }
+    ]
+  },
+  "emergency-service-and-support": {
+    "url": "emergency-service-and-support",
+    "name": "Emergency Service and Support",
+    "serviceImageUrl": [
+      "/img/img-24.jpg",
+      "/img/img-22.jpg"
+    ],
+    "headImage": "/img/img-38.jpg",
+    "description": "Description: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "overview": "Overview: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "features": "Features:  <ul><li>96.5% high efficiency eSure rectifiers</li><li>Modular design allows for incremental cost-effective system growth</li>",
+    "benefits": "Specification: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "resources": [
+      {
+        "name": "Design Document",
+        "link": "/download/img-22.pdf"
+      },
+      {
+        "name": "Catalog",
+        "link": "/download/img-21.pdf"
+      }
+    ],
+    "contacts": [
+      {
+        "name": "X-Man",
+        "designation": "Hero",
+        "phone": "1234567890",
+        "email": "sdas@techsol.com"
+      }
+    ],
+    "relatedServices": [
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      }
+    ]
+  },
+  "sub-station-installation": {
+    "url": "sub-station-installation",
+    "name": "Sub-station Installation",
+    "serviceImageUrl": [
+      "/img/img-24.jpg",
+      "/img/img-22.jpg"
+    ],
+    "headImage": "/img/img-41.jpg",
+    "description": "Description: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "overview": "Overview: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "features": "Features:  <ul><li>96.5% high efficiency eSure rectifiers</li><li>Modular design allows for incremental cost-effective system growth</li>",
+    "benefits": "Specification: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "resources": [
+      {
+        "name": "Design Document",
+        "link": "/download/img-22.pdf"
+      },
+      {
+        "name": "Catalog",
+        "link": "/download/img-21.pdf"
+      }
+    ],
+    "contacts": [
+      {
+        "name": "X-Man",
+        "designation": "Hero",
+        "phone": "1234567890",
+        "email": "sdas@techsol.com"
+      }
+    ],
+    "relatedServices": [
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      }
+    ]
+  },
+  "generator-installation": {
+    "url": "generator-installation",
+    "name": "Generator Installation",
+    "serviceImageUrl": [
+      "/img/img-24.jpg",
+      "/img/img-22.jpg"
+    ],
+    "headImage": "/img/img-40.jpg",
+    "description": "Description: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "overview": "Overview: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "features": "Features:  <ul><li>96.5% high efficiency eSure rectifiers</li><li>Modular design allows for incremental cost-effective system growth</li>",
+    "benefits": "Specification: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "resources": [
+      {
+        "name": "Design Document",
+        "link": "/download/img-22.pdf"
+      },
+      {
+        "name": "Catalog",
+        "link": "/download/img-21.pdf"
+      }
+    ],
+    "contacts": [
+      {
+        "name": "X-Man",
+        "designation": "Hero",
+        "phone": "1234567890",
+        "email": "sdas@techsol.com"
+      }
+    ],
+    "relatedServices": [
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      }
+    ]
+  },
+  "power-plant-installation-and-erection": {
+    "url": "power-plant-installation-and-erection",
+    "name": "Power Plant Installation and Erection",
+    "serviceImageUrl": [
+      "/img/img-24.jpg",
+      "/img/img-22.jpg"
+    ],
+    "headImage": "/img/img-42.jpg",
+    "description": "Description: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "overview": "Overview: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "features": "Features:  <ul><li>96.5% high efficiency eSure rectifiers</li><li>Modular design allows for incremental cost-effective system growth</li>",
+    "benefits": "Specification: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "resources": [
+      {
+        "name": "Design Document",
+        "link": "/download/img-22.pdf"
+      },
+      {
+        "name": "Catalog",
+        "link": "/download/img-21.pdf"
+      }
+    ],
+    "contacts": [
+      {
+        "name": "X-Man",
+        "designation": "Hero",
+        "phone": "1234567890",
+        "email": "sdas@techsol.com"
+      }
+    ],
+    "relatedServices": [
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      }
+    ]
+  },
+  "substation-maintenance": {
+    "url": "substation-maintenance",
+    "name": "Substation Maintenance",
+    "serviceImageUrl": [
+      "/img/img-24.jpg",
+      "/img/img-22.jpg"
+    ],
+    "headImage": "/img/img-43.jpg",
+    "description": "Description: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "overview": "Overview: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "features": "Features:  <ul><li>96.5% high efficiency eSure rectifiers</li><li>Modular design allows for incremental cost-effective system growth</li>",
+    "benefits": "Specification: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "resources": [
+      {
+        "name": "Design Document",
+        "link": "/download/img-22.pdf"
+      },
+      {
+        "name": "Catalog",
+        "link": "/download/img-21.pdf"
+      }
+    ],
+    "contacts": [
+      {
+        "name": "X-Man",
+        "designation": "Hero",
+        "phone": "1234567890",
+        "email": "sdas@techsol.com"
+      }
+    ],
+    "relatedServices": [
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      }
+    ]
+  },
+  "transformar-maintenance": {
+    "url": "transformar-maintenance",
+    "name": "Transformar Maintenance",
+    "serviceImageUrl": [
+      "/img/img-24.jpg",
+      "/img/img-22.jpg"
+    ],
+    "headImage": "/img/img-43.jpg",
+    "description": "Description: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "overview": "Overview: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "features": "Features:  <ul><li>96.5% high efficiency eSure rectifiers</li><li>Modular design allows for incremental cost-effective system growth</li>",
+    "benefits": "Specification: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "resources": [
+      {
+        "name": "Design Document",
+        "link": "/download/img-22.pdf"
+      },
+      {
+        "name": "Catalog",
+        "link": "/download/img-21.pdf"
+      }
+    ],
+    "contacts": [
+      {
+        "name": "X-Man",
+        "designation": "Hero",
+        "phone": "1234567890",
+        "email": "sdas@techsol.com"
+      }
+    ],
+    "relatedServices": [
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      }
+    ]
+  },
+  "transformer-servicing": {
+    "url": "transformer-servicing",
+    "name": "Transformer Servicing",
+    "serviceImageUrl": [
+      "/img/img-24.jpg",
+      "/img/img-22.jpg"
+    ],
+    "headImage": "/img/img-43.jpg",
+    "description": "Description: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "overview": "Overview: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "features": "Features:  <ul><li>96.5% high efficiency eSure rectifiers</li><li>Modular design allows for incremental cost-effective system growth</li>",
+    "benefits": "Specification: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "resources": [
+      {
+        "name": "Design Document",
+        "link": "/download/img-22.pdf"
+      },
+      {
+        "name": "Catalog",
+        "link": "/download/img-21.pdf"
+      }
+    ],
+    "contacts": [
+      {
+        "name": "X-Man",
+        "designation": "Hero",
+        "phone": "1234567890",
+        "email": "sdas@techsol.com"
+      }
+    ],
+    "relatedServices": [
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      }
+    ]
+  },
+  "switchgear-maintenance": {
+    "url": "switchgear-maintenance",
+    "name": "Switchgear Maintenance",
+    "serviceImageUrl": [
+      "/img/img-24.jpg",
+      "/img/img-22.jpg"
+    ],
+    "headImage": "/img/img-43.jpg",
+    "description": "Description: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "overview": "Overview: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "features": "Features:  <ul><li>96.5% high efficiency eSure rectifiers</li><li>Modular design allows for incremental cost-effective system growth</li>",
+    "benefits": "Specification: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "resources": [
+      {
+        "name": "Design Document",
+        "link": "/download/img-22.pdf"
+      },
+      {
+        "name": "Catalog",
+        "link": "/download/img-21.pdf"
+      }
+    ],
+    "contacts": [
+      {
+        "name": "X-Man",
+        "designation": "Hero",
+        "phone": "1234567890",
+        "email": "sdas@techsol.com"
+      }
+    ],
+    "relatedServices": [
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      }
+    ]
+  },
+  "transformer-repeating": {
+    "url": "transformer-repeating",
+    "name": "Transformer Repeating",
+    "serviceImageUrl": [
+      "/img/img-24.jpg",
+      "/img/img-22.jpg"
+    ],
+    "headImage": "/img/img-44.jpg",
+    "description": "Description: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "overview": "Overview: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "features": "Features:  <ul><li>96.5% high efficiency eSure rectifiers</li><li>Modular design allows for incremental cost-effective system growth</li>",
+    "benefits": "Specification: The innovative Liebert CW system lets you rapidly deploy chilled water capacity, achieve higher efficiency and use less white space. It offers the industry's widest range of capacities, featuring the industry's most advanced controls and innovations, such as optimized coil design that maximizes capacity and efficiency even at high entering water temperatures.",
+    "resources": [
+      {
+        "name": "Design Document",
+        "link": "/download/img-22.pdf"
+      },
+      {
+        "name": "Catalog",
+        "link": "/download/img-21.pdf"
+      }
+    ],
+    "contacts": [
+      {
+        "name": "X-Man",
+        "designation": "Hero",
+        "phone": "1234567890",
+        "email": "sdas@techsol.com"
+      }
+    ],
+    "relatedServices": [
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      },
+      {
+        "name": "Autotransformers",
+        "link": "Autotransformers",
+        "imageUrl": "/img/img-22.jpg"
+      }
+    ]
+  }
+}

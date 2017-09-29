@@ -37,20 +37,20 @@
                         <div class="row">
                           <div class="col-md-3 row">
                             <div class="whats-new-section ">
-                              <strong><span class="whats-new-head">What's New</span></strong>
+                              <strong><span class="whats-new-head">Our Speciality products</span></strong>
                               <ul>
                                 <li class="no-click-close">
-                                  <a href="#" class="no-click-close"><strong>Lorem ipsum dolor</strong>
+                                  <a href="#" [routerLink]="['/products', 'power-transformer']"><strong>Harmonics Mitigating Transformer</strong>
                                   <p>Cras interdum, velit in viverra vehicula, sem nisl mattis orci, quis congue.</p></a>
                                 </li>
                                 <li class="no-click-close">
-                                  <a href="#" class="no-click-close">
-                                    <strong>Commodo vehicula vivamus.</strong>
-                                    <p>Vivamus ut enim libero. Cras interdum, velit in viverra vehicula, sem nisl mattis orci, quis congue.</p>
+                                  <a href="#" [routerLink]="['/products', 'power-transformer']" class="no-click-close">
+                                    <strong>Customised Panels</strong>
+                                    <p>Techsol designs unique panels customized to meet your requirements</p>
                                   </a>
                                 </li>
                                 <li class="no-click-close">
-                                  <a href="#" class="no-click-close"> <strong>Tortor ante non augue</strong>
+                                  <a href="#" class="no-click-close"> <strong>APFC Panels</strong>
                                     <p>Velit in viverra vehicula, sem nisl mattis orci, quis congue tortor</p>
                                   </a>
                                 </li>
@@ -58,7 +58,7 @@
                             </div>
                           </div>
                           <div class="col-md-9 nav-items">
-                            <div class="col-md-3">
+                            <div class="col-md-3 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
                                   Transformer
@@ -77,7 +77,7 @@
                                 </ul>
                               </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
                                   Switchgear
@@ -102,7 +102,7 @@
                               </div>
 
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
                                   Control Panels
@@ -115,8 +115,18 @@
                                   <li><a [routerLink]="['/products', 'lighting-control-anels']" href="#">Lighting Control Panel</a></li>
                                 </ul>
                               </div>
+                              <div class="nav-item">
+                                <div class="nav-item-head">
+                                  Components
+                                </div>
+                                <ul>
+                                  <li><a [routerLink]="['/products', 'synchronization-panel']" href="#">Switchgear Components</a></li>
+                                  <li><a [routerLink]="['/products', 'synchronization-panel']" href="#">Wiring Accessories</a></li>
+                                  <li><a [routerLink]="['/products', 'synchronization-panel']" href="#">Wiring Accessories</a></li>
+                                </ul>
+                              </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
                                   More Products
@@ -150,7 +160,7 @@
                         <div class="row">
                           <div class="col-md-3 row">
                             <div class="whats-new-section ">
-                              <strong><span class="whats-new-head">What's New</span></strong>
+                              <strong><span class="whats-new-head">Solutions that make us proud</span></strong>
                               <ul>
                                 <li class="no-click-close">
                                   <a href="#" class="no-click-close"><strong>Lorem ipsum dolor</strong>
@@ -171,33 +181,51 @@
                             </div>
                           </div>
                           <div class="col-md-9 nav-items">
-                            <div class="col-md-5">
-                            </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
-                                  Electrical Solutions
+                                  Power
                                 </div>
                                 <ul>
-                                  <li><a [routerLink]="['/services', 'data-center-solution']" href="#">Data Center Solution</a></li>
+                                  <li><a [routerLink]="['/services', 'data-center-solution']" href="#">Electrical Solutions</a></li>
+                                  <li><a [routerLink]="['/services', 'data-center-solution']" href="#">Remote Monitoring</a></li>
+                                  <li><a [routerLink]="['/services', 'data-center-solution']" href="#">Remote Interfacing</a></li>
+                                  <li><a [routerLink]="['/services', 'data-center-solution']" href="#">Automation</a></li>
+                                  <li><a [routerLink]="['/services', 'data-center-solution']" href="#">Power Management</a></li>
+                                  <li><a [routerLink]="['/services', 'data-center-solution']" href="#">Building Management (BMS)</a></li>
                                 </ul>
                               </div>
+                            </div>
+                            <div class="col-md-3 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
-                                  Repairing &amp; Maintenance
+                                  HVAC
                                 </div>
                                 <ul>
                                   <li><a [routerLink]="['/services', 'substation-repairing-maintenance']" href="#">Substation</a></li>
                                 </ul>
                               </div>
                             </div>
-                            <div class="col-md-3">
+
+                            <div class="col-md-3 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
-                                  Head
+                                  Data Center
                                 </div>
                                 <ul>
-                                  <li><a [routerLink]="['/services', 'site-testing-and-commissioning']" href="#">Site Testing and Commissioning</a></li>
+                                  <li><a [routerLink]="['/services', 'data-center-solution']" href="#">Tharmal Solutions</a></li>
+                                  <li><a [routerLink]="['/services', 'data-center-solution']" href="#">Electrical Solutions</a></li>
+                                  <li><a [routerLink]="['/services', 'data-center-solution']" href="#">Electrical Solutions</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-md-3 nav-col">
+                              <div class="nav-item">
+                                <div class="nav-item-head">
+                                  Fire, Safety &amp; Security
+                                </div>
+                                <ul>
+                                  <li><a [routerLink]="['/services', 'site-testing-and-commissioning']" href="#">tes</a></li>
                                 </ul>
                               </div>
                             </div>
@@ -237,7 +265,7 @@
                         <div class="row">
                           <div class="col-md-3 row">
                             <div class="whats-new-section ">
-                              <strong><span class="whats-new-head">What's New</span></strong>
+                              <strong><span class="whats-new-head">We provide worldclass services</span></strong>
                               <ul>
                                 <li class="no-click-close">
                                   <a href="#" class="no-click-close"><strong>Lorem ipsum dolor</strong>
@@ -258,7 +286,7 @@
                             </div>
                           </div>
                           <div class="col-md-9 nav-items">
-                            <div class="col-md-5">
+                            <div class="col-md-5 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
                                   Electrical Service Solutions
@@ -267,14 +295,14 @@
                                   <li><a [routerLink]="['/services', 'engineering-procurement-and-construction-epc']" href="#">Engineering, Procurement, and Construction (EPC)</a></li>
                                   <li><a [routerLink]="['/services', 'engineering-and-consultancy']" href="#">Engineering and Consultancy</a></li>
                                   <li><a [routerLink]="['/services', 'turnkey-services']" href="#">Turnkey Services</a></li>
-                                  <li><a [routerLink]="['/services', 'emergency-service-and-support']" href="#">Emergency Service and Support</a></li>
+                                  <li><a [routerLink]="['/services', 'emergency-service']" href="#">Emergency Service</a></li>
                                   <li><a [routerLink]="['/services', 'project-management']" href="#">Project Management</a></li>
                                   <li><a [routerLink]="['/services', 'network-design']" href="#">Network Design</a></li>
                                   <li><a [routerLink]="['/services', 'health-and-safety']" href="#">Health and Safety</a></li>
                                 </ul>
                               </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
                                   Installation
@@ -287,7 +315,7 @@
                               </div>
                               <div class="nav-item">
                                 <div class="nav-item-head">
-                                  Repairing &amp; Maintenance
+                                  Maintenance
                                 </div>
                                 <ul>
                                   <li><a [routerLink]="['/services', 'substation-repairing-maintenance']" href="#">Substation</a></li>
@@ -298,10 +326,10 @@
                                 </ul>
                               </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
-                                  Head
+                                  More Services
                                 </div>
                                 <ul>
                                   <li><a [routerLink]="['/services', 'site-testing-and-commissioning']" href="#">Site Testing and Commissioning</a></li>
@@ -330,7 +358,7 @@
                         <div class="row">
                           <div class="col-md-3 row">
                             <div class="whats-new-section ">
-                              <strong><span class="whats-new-head">What's New</span></strong>
+                              <strong><span class="whats-new-head">Expect 24X7 flawless support</span></strong>
                               <ul>
                                 <li class="no-click-close">
                                   <a href="#" class="no-click-close"><strong>Lorem ipsum dolor</strong>
@@ -351,10 +379,10 @@
                             </div>
                           </div>
                           <div class="col-md-9 nav-items">
-                            <div class="col-md-5">
+                            <div class="col-md-3 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
-                                  Downloads - rockwell automation
+                                  Downloads
                                 </div>
                                 <ul>
                                   <li><a [routerLink]="['/services', 'engineering-procurement-and-construction-epc']" href="#">Technical Data Sheet</a></li>
@@ -366,7 +394,7 @@
                                 </ul>
                               </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
                                   Literature
@@ -381,8 +409,21 @@
                               </div>
 
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 nav-col">
                               <div class="nav-item">
+                                <div class="nav-item-head">
+                                  Repairing
+                                </div>
+                                <ul>
+                                  <li><a [routerLink]="['/services', 'substation-repairing-maintenance']" href="#">Substation</a></li>
+                                  <li><a [routerLink]="['/services', 'transformar-repairing-maintenance']" href="#">Transformar</a></li>
+                                  <li><a [routerLink]="['/services', 'switchgear-repairing-maintenance']" href="#">Switchgear</a></li>
+                                  <li><a [routerLink]="['/services', 'generator-repeating-maintenance']" href="#">Generator</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-md-3 nav-col">
+                                <div class="nav-item">
                                 <div class="nav-item-head">
                                   Tools
                                 </div>
@@ -485,8 +526,7 @@
 
           <a [routerLink]="['terms-of-use']">Terms of use</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a [routerLink]="['privacy-policy']">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a [routerLink]="['sitemap']">Sitemap</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a [routerLink]="['support']">Support</a>
+          <a [routerLink]="['sitemap']">Sitemap</a>
         </div>
       </div>
     </div>
