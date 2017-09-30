@@ -91,19 +91,26 @@ p {
         background-position: right top;
         background-size: cover;
         background: #000000;
+        .topic-description-bg{
+            background-image: url("/img/surge-home.jpg");
+            background-size: cover;
+        }
         .topic-description {
             //min-height: 300px;
             bottom: 0;
             padding: 20px 0;
             z-index: 1;
-            background: rgba(0,0,0,0.8);
+            color: #00e0ff;
+            letter-spacing: .06em;
+            background-color: rgba(0,0,0,0.87);
+            height: 362px;
             h1 {
                 font-size: 30px;
-                font-weight: 400;
+                font-weight: 600;
                 line-height: 1.2;
                 color: #fff;
                 margin-bottom: 22px;
-                margin-top: 50px;
+                margin-top: 70px;
             }
             p {
                 color: #fff;
@@ -349,7 +356,7 @@ $carousel-item-width: $carousel-item-height !default;
         letter-spacing: .06em;
         padding-left: 0;
         padding-top: 0;
-        font-size: 50px;
+        font-size: 44px;
         line-height: 50px;
         font-weight: 100;
         text-align: left;
@@ -358,8 +365,8 @@ $carousel-item-width: $carousel-item-height !default;
     }
     h1{
         margin-top: 0;
-        font-weight: 500;
-        font-size: 60px;
+        font-weight: 400;
+        font-size: 50px;
         margin: 30px 0 20px 0;
     }
     

@@ -246,13 +246,13 @@ width: 174px;
 }
 
 .block-type-1{
-    min-height: 550px;
+    min-height: 430px;
 }
 .block-type-2{
     min-height: 550px;
 }
 .block-type-3{
-    min-height: 804px;
+    min-height: 684px;
 }
 .block-type-4{
     min-height: 264px;
@@ -274,4 +274,68 @@ width: 174px;
 }
 .body-copy{
     font-family: 'Yanone Kaffeesatz', sans-serif;    
+    color: #00e0ff !important;
+    letter-spacing: .06em;
+    font-size: 44px !important;
+    text-align: left;
+}
+.block-element:hover{
+    border: 1px solid rgba(57, 57, 57, 0.2);
+    background-color: rgba(57, 57, 57, 0.1);
+}
+.block-element{
+    overflow: auto;
+    margin: 25px 18px;
+    margin: 12px 9px;
+    padding: 9px 10px;
+    border: 1px solid rgba(57, 57, 57, 0.0);
+    .count{
+        float: left;
+        /* padding: 20px; */
+        text-align: center;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border: 1px solid rgba(57, 57, 57, 0.2);
+        margin: 0px 20px 8px 0;
+        font-size: 20px;
+        background-color: rgba(57, 57, 57, 0.1);
+        border-radius: 20px;
+        font-weight: 500;
+    }
+    .element-content{
+        h4{
+            line-height: 25px;
+            height: 30px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+}
+.trending{
+    background-image: url(../img/trending.png);
+    text-align: left;
+    font-weight: 400 !important;
+    background-size: 64px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    width: 155px;
+    margin: 14px auto !important;
+    color: #E82D35 !important;
+}
+
+.block-body{
+    p{
+        text-align: left;
+      }
+}
+.client-logo{
+    img {
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+    }
 }

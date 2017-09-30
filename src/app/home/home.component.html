@@ -2,10 +2,11 @@
   <div class="container" style="top: 96px;">
     <div class="">
       <div class="col-md-6">
-        <div class="topic-description">
-          <h1 class="primary-headline">Electricity &amp; Power</h1>
-          <p class="body-copy">Techsol’s Electricity &amp; Power specialists provide comprehensive, integrated solutions to all segments of the
-            Power sectors.</p>
+        <div class="topic-description-bg">
+          <div class="topic-description">
+            <h1 class="primary-headline">Your Partner for Power Solutions</h1>
+            <p class="body-copy">Quality is Our Commitment</p>
+          </div>
         </div>
       </div>
       <div class="topic-img col-md-6">
@@ -39,9 +40,7 @@
               <h3><a [routerLink]="['about']">Who we are</a></h3>
             </div>
             <div class="block-body">
-              <p>Deloitte’s India Energy &amp; Resources specialists provide comprehensive, integrated solutions to all segments
-                of the Power, Oil and Gas and Mining sectors. We offer clients exceptionally detailed industry knowledge
-                and a global network, alongside local market delivery.</p>
+              <p>One of the leading power solution company.</p>
               <a class="read-more" [routerLink]="['about-us']">Read More &gt;</a>
             </div>
           </div>
@@ -49,13 +48,11 @@
         <div class="col-sm-6">
           <div class="block block-type-1">
             <div class="block-head">
-              <img src="/img/img-15.jpg" class="img-full-width" />
+              <img src="/img/what-we-do/what-we-do.jpg" class="img-full-width" />
               <h3><a [routerLink]="['infrastructure']">What we do</a></h3>
             </div>
             <div class="block-body">
-              <p>Deloitte’s India Energy &amp; Resources specialists provide comprehensive, integrated solutions to all segments
-                of the Power, Oil and Gas and Mining sectors. We offer clients exceptionally detailed industry knowledge
-                and a global network, alongside local market delivery.</p>
+              <p>Product manufacturing service and support.</p>
               <a class="read-more" [routerLink]="['infrastructure']">Read More &gt;</a>
             </div>
           </div>
@@ -65,18 +62,24 @@
         <div class="col-sm-12">
           <div class="block" style="padding: 0;">
             <div class="block-body video-container">
-              <div class="block-head" style="position: absolute;z-index: 1;margin: 20px;">
-                <h3 style="margin-top: 0; color:#FFFFFF;"><a [routerLink]="['manufacturing-process']" style="color:#FFFFFF;">Manufacturing Process</a></h3>
+              <div class="block-head" style="position: absolute;
+              z-index: 1;
+              margin: 20px;
+              left: 50%;
+              margin-left: -134px;
+              top: 50%;
+              margin-top: -36px;
+              background-color: rgba(255,255,255,.8);
+              padding: 5px 20px;">
+                <h3 style="margin-top: 0; color:#FFFFFF;"><a [routerLink]="['manufacturing-process']" style="color: black;
+                  margin: 8px 0 -8px 0;
+                  display: block;">Research and Development</a></h3>
               </div>
               <div class="row">
-                <div class="col-md-9">
-                  <img src="/img/homepage-img/man-process2.jpg" class="img-full-width" />
-                </div>
-                <div class="col-md-3">
-                  <p>describe the process in breef. </p><a style="padding-left: 18px;" class="read-more" [routerLink]="['manufacturing-process']">Read More &gt;</a>
+                <div class="col-md-12">
+                  <img src="/img/homepage-img/research.jpg" class="img-full-width" style="height: 244px;"/>
                 </div>
               </div>
-              <!--<iframe src="https://www.youtube.com/embed/d0BmOaOP7JU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen class="video"></iframe>-->
             </div>
           </div>
         </div>
@@ -91,14 +94,41 @@
         <div class="col-sm-12">
           <div class="block block-type-3">
             <div class="block-head">
-              <h3 style="margin-top: 0;"><a [routerLink]="['quality']">Quality Assurance</a></h3>
+              <h3 class="trending">Trending</h3>
             </div>
             <div class="block-body">
-              <p>Deloitte’s India Energy &amp; Resources specialists provide comprehensive, integrated solutions to all segments
-                of the Power, Oil and Gas and Mining sectors. We offer clients exceptionally detailed industry knowledge
-                and a global network, alongside local market delivery.</p>
-              <a class="read-more" [routerLink]="['quality']">Read More &gt;</a>
-              <img style="position: absolute;left: 0;padding: 15px;bottom: 0;" src="/img/img-16.jpg" class="img-full-width" />
+              <div class="block-element">
+                <div class="count">1</div>
+                <div class="element-content">
+                  <h4>Green Transformer</h4>
+                  <p>Techsol now manufacturing environmental friendly Green Transformers</p>
+                </div>
+              </div>
+
+              <div class="block-element">
+                <div class="count">2</div>
+                <div class="element-content">
+                  <h4>Generators</h4>
+                  <p>Techsol now proudly representing world famous <a href="http://www.gucbirjenerator.com/" target="_blank">Gucbir</a>                    Generators</p>
+                </div>
+              </div>
+
+              <div class="block-element">
+                <div class="count">3</div>
+                <div class="element-content">
+                  <h4>Static AVR</h4>
+                  <p>Techsol is now serving solutions for critical power by 4th generation Static AVR</p>
+                </div>
+              </div>
+
+              <div class="block-element">
+                <div class="count">4</div>
+                <div class="element-content">
+                  <h4>Fire Safety &amp; Security Solutions</h4>
+                  <p>We provide end to end solutions on FS3</p>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
@@ -222,13 +252,13 @@
             </div>
 
             <div class="client-logo">
-                <div class="v-center">
-                  <a href="http://vipindustries.co.in/" target="_blank">
+              <div class="v-center">
+                <a href="http://vipindustries.co.in/" target="_blank">
                                   <img src="/img/homepage-img/vip.png" class="img-full-width"/>
                                   <span>V.I.P. Industries</span>
                                 </a>
-                </div>
-              </div>            
+              </div>
+            </div>
 
             <div class="client-logo">
               <div class="v-center">
@@ -273,7 +303,7 @@
             </div>
 
 
-            
+
             <div class="client-logo">
               <div class="v-center">
                 <a href="http://www.summitcommunications.net/" target="_blank">
