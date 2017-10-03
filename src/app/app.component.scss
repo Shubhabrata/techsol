@@ -105,16 +105,16 @@ background-color: #ffffff;
     }
   }
 .footer-bottom{
-  color: #adadad;
+  color: #707070;
   letter-spacing: 0.1em;
-  font-size: 12px;
+  font-size: 13px;
   background-color: #f4f4f4;
   padding: 20px;
   margin-top:20px;
   a{
-    color: #adadad;
+    color: #707070;
     letter-spacing: 0.1em;
-    font-size: 12px;
+    font-size: 13px;
     text-decoration: none;
   }
 }
@@ -233,14 +233,14 @@ header .header-container{
     .nav-item-head{
       color: #00b6cf;
       font-size: 15px;
-      font-weight: 100;
+      font-weight: 300;
       text-transform: uppercase;
       margin: 0 9px;
       a{
         color:#ffffff;
         text-decoration: none;
         text-transform: initial;
-        font-size: 13px;
+        font-size: 14px;
         margin: 9px 0;
         display: block;
       }
@@ -363,7 +363,6 @@ header{
     transition: opacity 0.2s ease-out;
     opacity: 0;    
     visibility: hidden;
-    border-bottom: 1px solid #a3a3a3;
     .whats-new-section strong {
         padding-left: 4%;
         padding-right: 4%;
@@ -379,11 +378,10 @@ header{
     .whats-new-section ul li {
         margin: 0 !important;
         padding: 5px 10px !important;
-        border-bottom: 1px solid #333;
         height: 99px;
     }
     .whats-new-section ul li p {
-        font-size: 13px;
+        font-size: 14px;
         color: #d0d0ce;
         padding-bottom: 10px;
         margin: 0;
@@ -396,12 +394,13 @@ header{
 .whats-new-section {
     background-color: #1C1C1C;
     overflow: auto;
+    text-align: center;
     p{
-      text-align: left;
+      text-align: center;
     }
 }
 .whats-new-section ul li:hover {
-    background-color: #2C2C2C;
+    //background-color: #2C2C2C;
 }
 .whats-new-head {
     padding-top: 7px;
@@ -411,7 +410,7 @@ header{
   margin-top: 25px;
   overflow: auto;
 }
-.nav-col{
+.nav-col, .whats-new-section{
   height: 326px;  
   padding: 0;
 }
