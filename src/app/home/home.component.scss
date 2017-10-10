@@ -339,3 +339,21 @@ width: 174px;
         filter: grayscale(100%);
     }
 }
+.product-registration{
+    li{
+        display: block;
+        margin: 10px;
+        font-size: 16px;
+        font-weight: 100;
+        text-transform: uppercase;
+        i{
+            color:#25abc6;
+        }
+    }
+    p, h3{text-align: center;}
+    ul{
+        padding:0;
+        margin: 0;
+    }
+    
+}
