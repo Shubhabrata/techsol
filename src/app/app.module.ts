@@ -9,7 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { QualityComponent } from './quality/quality.component';
 import { ClientsComponent } from './clients/clients.component';
-import { InfrastructureComponent } from './infrastructure/infrastructure.component';
+import { WhatWeDoComponent } from './what-we-do/what-we-do.component';
 import { SitemapComponent } from './sitemap/sitemap.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { GalleryComponent } from './gallery/gallery.component';
@@ -56,7 +56,7 @@ enableProdMode();
     ContactUsComponent,
     QualityComponent,
     ClientsComponent,
-    InfrastructureComponent,
+    WhatWeDoComponent,
     SitemapComponent,
     PrivacyPolicyComponent,
     SupportComponent,

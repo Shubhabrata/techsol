@@ -8,9 +8,9 @@
             <a [routerLink]="['/']">
               <div class="logo pull-left"></div>
             </a>
-            <div class="search-container pull-left">
+            <!--<div class="search-container pull-left">
               <input type="text" class="search-box" placeholder="Search" /><button type="button" class="search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
-            </div>
+            </div>-->
             <div class="desktop-nav pull-right">
               <div class="nav-top">
                 <ul>
@@ -18,6 +18,7 @@
                   <li><a [routerLink]="['contact-us']">Contact Us</a></li>
                 </ul>
               </div>
+              <!--
               <div class="nav-bottom">
                 <ul>
 
@@ -411,7 +412,7 @@
 
 
                 </ul>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -437,11 +438,12 @@
             <li><a [routerLink]="['quality']">Quality</a></li>
             <li><a [routerLink]="['clients']">Clients</a></li>
             <!-- <li><a [routerLink]="['manufacturing-process']">Manufacturing Process</a></li> -->
-            <li><a [routerLink]="['faq']">FAQ</a></li>
+            <!--<li><a [routerLink]="['faq']">FAQ</a></li>
             <li><a [routerLink]="['products-home']">Products</a></li>
             <li><a [routerLink]="['solutions-home']">Solutions</a></li>
             <li><a [routerLink]="['services-home']">Services</a></li>
             <li><a [routerLink]="['support-home']">Support</a></li>
+            -->
           </ul>
         </div>
         <div class="col-md-3">
@@ -459,13 +461,13 @@
         </div>
         <div class="col-md-3" style="text-align:right;">
           <h4>Awards &amp; Recognition</h4>
-          <img src="/img/iso.png" style="width: 200px;" />
+          <a [routerLink]="['quality']"><img src="/img/iso.png" style="width: 200px;" /></a>
           <h5>ISO 9001:2008 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ISO 14001:2004</h5>
           <h4>&nbsp;</h4>
           <div class="share">
-            <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-            <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
-            <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-linkedin-square fa-3x social"></i></a>
+            <a href="https://www.facebook.com/techsolbd"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+            <a href="https://twitter.com/techsolbd"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+            <a href="https://in.linkedin.com/company/techsolbd"><i id="social-gp" class="fa fa-linkedin-square fa-3x social"></i></a>
             <a href="mailto:?subject=I wanted you to see this site&amp;body=Check out this site http://www.techsolbd.com" title="Share by Email"><i id="social-gp" class="fa fa-envelope-square fa-3x social"></i></a>
           </div>
         </div>
@@ -479,12 +481,14 @@
         <div class="col-md-6">
           &copy; 2017 Techsol Engineering Limited, All Rights Reserved.
         </div>
+        <!--
         <div class="col-md-6" style="text-align:right">
 
           <a [routerLink]="['terms-of-use']">Terms of use</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a [routerLink]="['privacy-policy']">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a [routerLink]="['sitemap']">Sitemap</a>
         </div>
+      -->
       </div>
     </div>
   </div>

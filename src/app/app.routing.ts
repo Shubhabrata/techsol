@@ -10,7 +10,7 @@ import { ServicesHomeComponent } from './serviceshome/serviceshome.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { QualityComponent } from './quality/quality.component';
 import { ClientsComponent } from './clients/clients.component';
-import { InfrastructureComponent } from './infrastructure/infrastructure.component';
+import { WhatWeDoComponent } from './what-we-do/what-we-do.component';
 import { SitemapComponent } from './sitemap/sitemap.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { SupportComponent } from './support/support.component';
@@ -35,7 +35,7 @@ const routes: Routes = [
   { path: 'contact-us', component: ContactUsComponent},
   { path: 'quality', component: QualityComponent},
   { path: 'clients', component: ClientsComponent},
-  { path: 'infrastructure', component: InfrastructureComponent},
+  { path: 'what-we-do', component: WhatWeDoComponent},
   { path: 'sitemap', component: SitemapComponent},
   { path: 'privacy-policy', component: PrivacyPolicyComponent},
   { path: 'support', component: SupportComponent},
