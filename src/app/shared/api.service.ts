@@ -34,7 +34,14 @@ export class ApiService {
     );
   }
 
-  constructor(private http: Http) { 
+  fetchLinks() {
+    return this.http.get('/service/links.json').map(
+      (res) => res.json()
+    );
+  }
+
+
+  constructor(private http: Http) {
   }
   title = "Welcome to Techsol";
 }

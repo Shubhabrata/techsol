@@ -230,19 +230,20 @@ header .header-container{
     overflow: auto;
     padding: 0;
     }
-    .nav-item-head{
+    .nav-item-head {
       color: #00b6cf;
       font-size: 15px;
       font-weight: 300;
       text-transform: uppercase;
       margin: 0 9px;
       a{
-        color:#ffffff;
         text-decoration: none;
         text-transform: initial;
-        font-size: 14px;
-        margin: 9px 0;
         display: block;
+        color: #00b6cf;
+        font-size: 15px;
+        font-weight: 300;
+        text-transform: uppercase;
       }
       a:hover{
         color:#00b6cf;
@@ -409,7 +410,30 @@ header{
 }
 .nav-item{
   margin-top: 25px;
-  overflow: auto;
+  overflow: hidden;
+}
+.solutions{
+  .nav-item{
+    p{
+      color:#ffffff;
+      font-size: 13px;
+      padding: 3px 10px;
+    }
+    a.read-more{
+      color: #FFFFFF !important;
+      text-decoration: underline;
+      font-size: 11px !important;
+      margin-bottom: 0;
+    }
+    a.read-more:hover{
+      color: #25abc6 !important;
+    }  
+    .nav-item-head{
+      a{
+        text-transform: none;
+      }
+    }
+  }
 }
 .nav-col, .whats-new-section{
   height: 326px;  

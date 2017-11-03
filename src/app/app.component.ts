@@ -11,11 +11,11 @@ import '../style/app.scss';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-
+  private links;
   title: string;
 
-  constructor(private api: ApiService, private router: Router) {
-    this.title = this.api.title;
+  constructor(private apiService: ApiService, private router: Router) {
+    //this.title = this.apiService.title;
   }
   ngOnInit() {
     this.router.events.subscribe((evt) => {
@@ -23,7 +23,14 @@ export class AppComponent implements OnInit {
         return;
       }
       window.scrollTo(0, 0);
-      (<any>$('.nav-link')).removeClass("show-nav");      
+      (<any>$('.nav-link')).removeClass("show-nav");
     });
+    this.apiService.fetchLinks().subscribe(
+      links => {
+        this.links = links;
+      },
+      err => console.error(err),
+      () => console.log(this.links)
+    );
   }
 }

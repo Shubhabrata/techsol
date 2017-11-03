@@ -1,0 +1,26 @@
+{
+    "nav": {
+        "products": {
+            "transformers": {
+                "Power Transformer": {
+                    "routerLink": [
+                        "/products",
+                        "power-transformer"
+                    ],
+                    "text": "Power Transformer"
+                },
+                "Distribution Transformer": {
+                    "routerLink": [
+                        "/products",
+                        "distribution-transformer"
+                    ],
+                    "text": "Distribution Transformer"
+                }
+            }
+        },
+        "solutions": {},
+        "services": {},
+        "support": {}
+    },
+    "others":{}
+}

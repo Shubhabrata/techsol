@@ -8,9 +8,9 @@
             <a [routerLink]="['/']">
               <div class="logo pull-left"></div>
             </a>
-            <!--<div class="search-container pull-left">
+            <div class="search-container pull-left">
               <input type="text" class="search-box" placeholder="Search" /><button type="button" class="search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
-            </div>-->
+            </div>
             <div class="desktop-nav pull-right">
               <div class="nav-top">
                 <ul>
@@ -18,7 +18,6 @@
                   <li><a [routerLink]="['contact-us']">Contact Us</a></li>
                 </ul>
               </div>
-              <!--
               <div class="nav-bottom">
                 <ul>
 
@@ -56,7 +55,6 @@
                                 <ul>
                                   <li><a [routerLink]="['/products', 'power-transformer']">Power Transformer</a></li>
                                   <li><a [routerLink]="['/products', 'distribution-transformer']" href="#">Distribution Transformer</a></li>
-                                  <li><a [routerLink]="['/products', 'special-type-transformer']" href="#">Special Type Transformer</a></li>
                                   <li><a [routerLink]="['/products', 'dry-type-transformer']" href="#">Dry Type Transformer</a></li>
                                   <li><a [routerLink]="['/products', 'green-transformer']" href="#">Green Transformer</a></li>
                                   <li><a [routerLink]="['/products', 'isolation-transformer']" href="#">Isolation Transformer</a></li>
@@ -64,70 +62,75 @@
                                   <li><a [routerLink]="['/products', 'earthing-transformer']" href="#">Earthing Transformer</a></li>
                                   <li><a [routerLink]="['/products', 'furnace-transformer']" href="#">Furnace Transformer</a></li>
                                   <li><a [routerLink]="['/products', 'rectifier-transformer']" href="#">Rectifier Transformer</a></li>
+                                  <li><a [routerLink]="['/products', 'special-type-transformer']" href="#">Special Type Transformer</a></li>
                                 </ul>
                               </div>
                             </div>
                             <div class="col-md-3 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
-                                  Switchgear
+                                  Switchgear &amp; Control
                                 </div>
                                 <ul>
                                   <li><a [routerLink]="['/products', 'hv-switchgear']" href="#">HV Switchgear</a></li>
                                   <li><a [routerLink]="['/products', 'mv-switchgear']" href="#">MV Switchgear</a></li>
                                   <li><a [routerLink]="['/products', 'lv-switchgear']" href="#">LV Switchgear</a></li>
-                                  <li><a [routerLink]="['/products', 'enclosed-switchgear']" href="#">Enclosed Switchgear</a></li>
-                                </ul>
-                              </div>
-                              <div class="nav-item">
-                                <div class="nav-item-head">
-                                  LV Panels
-                                </div>
-                                <ul>
-                                  <li><a [routerLink]="['/products', 'mccb-distribution-board']" href="#">MCCB Distribution Board</a></li>
-                                  <li><a [routerLink]="['/products', 'final-distribution-board']" href="#">Final Distribution Board</a></li>
-                                  <li><a [routerLink]="['/products', 'power-factor-correction']" href="#">Power Factor Correction</a></li>
-                                  <li><a [routerLink]="['/products', 'changeover-panel']" href="#">Changeover Panel</a></li>
-                                </ul>
-                              </div>
-
-                            </div>
-                            <div class="col-md-3 nav-col">
-                              <div class="nav-item">
-                                <div class="nav-item-head">
-                                  Control Panels
-                                </div>
-                                <ul>
+                                  <li><a [routerLink]="['/products', 'power-factor-correction']" href="#">PFI Plant</a></li>
+                                  <li><a [routerLink]="['/products', 'mccb-distribution-board']" href="#">AC/DC Distribution Board</a></li>
+                                  <li><a [routerLink]="['/products', 'lv-switchgear']" href="#">Paralleling Switchgear</a></li>
                                   <li><a [routerLink]="['/products', 'synchronization-panel']" href="#">Synchronization Panel</a></li>
-                                  <li><a [routerLink]="['/products', 'industrial-control-panel']" href="#">Industrial Control Panel</a></li>
-                                  <li><a [routerLink]="['/products', 'motor-control-panel']" href="#">Motor Control Panel</a></li>
-                                  <li><a [routerLink]="['/products', 'generator-control-panel']" href="#">Generator Control Panel</a></li>
+                                  <li><a [routerLink]="['/products', 'changeover-panel']" href="#">Power Transfer Panel</a></li>
+                                  <li><a [routerLink]="['/products', 'motor-control-panel']" href="#">Motor Control Center</a></li>
                                   <li><a [routerLink]="['/products', 'lighting-control-anels']" href="#">Lighting Control Panel</a></li>
                                 </ul>
                               </div>
+                            </div>
+                            <div class="col-md-3 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
-                                  Components
+                                  Cable Management
                                 </div>
                                 <ul>
-                                  <li><a [routerLink]="['/products', 'synchronization-panel']" href="#">Switchgear Components</a></li>
-                                  <li><a [routerLink]="['/products', 'synchronization-panel']" href="#">Wiring Accessories</a></li>
-                                  <li><a [routerLink]="['/products', 'synchronization-panel']" href="#">Wiring Accessories</a></li>
+                                  <li><a [routerLink]="['/products', 'motor-control-panel']" href="#">Cable Ladder</a></li>
+                                  <li><a [routerLink]="['/products', 'lighting-control-anels']" href="#">Cable Tray</a></li>
+                                  <li><a [routerLink]="['/products', 'lighting-control-anels']" href="#">Floor Trunking</a></li>
+                                  <li><a [routerLink]="['/products', 'lighting-control-anels']" href="#">Industrial Channel</a></li>
+                                  <li><a [routerLink]="['/products', 'lighting-control-anels']" href="#">Cable Entry System</a></li>
                                 </ul>
+                              </div>
+                              <div class="solutions">
+                                <div class="nav-item">
+                                  <div class="nav-item-head">
+                                    <a [routerLink]="['/services', 'data-center-solution']" href="#">MV Package Substation</a>
+                                  </div>
+                                </div>
+                                <div class="nav-item">
+                                  <div class="nav-item-head">
+                                    <a [routerLink]="['/services', 'data-center-solution']" href="#">Smart Outdoor Cabinate</a>
+                                  </div>
+                                </div>
+                                <div class="nav-item">
+                                  <div class="nav-item-head">
+                                    <a [routerLink]="['/services', 'data-center-solution']" href="#">Load Banks</a>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                             <div class="col-md-3 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
-                                  More Products
+                                  More
                                 </div>
                                 <ul>
                                   <li><a [routerLink]="['/products', 'generators']" href="#">Generators</a></li>
                                   <li><a [routerLink]="['/products', 'static-avr']" href="#">Static AVR</a></li>
-                                  <li><a [routerLink]="['/products', 'busway-and-cable-management']" href="#">Busway and Cable Management</a></li>
-                                  <li><a [routerLink]="['/products', 'surge-and-lightning-protection-system']" href="#">Surge and Lightning Protection System</a></li>
+                                  <li><a [routerLink]="['/products', 'solar-system']" href="#">UPS</a></li>
+                                  <li><a [routerLink]="['/products', 'solar-system']" href="#">Batteries</a></li>
                                   <li><a [routerLink]="['/products', 'solar-system']" href="#">Solar System</a></li>
-                                  <li><a [routerLink]="['/products', 'sub-station']" href="#">Sub-Station</a></li>
+                                  <li><a [routerLink]="['/products', 'solar-system']" href="#">Harmonic Mitigation Devices</a></li>
+                                  <li><a [routerLink]="['/products', 'busway-and-cable-management']" href="#">Busbar Trunking System</a></li>
+                                  <li><a [routerLink]="['/products', 'solar-system']" href="#">Switchgear Components</a></li>
+                                  <li><a [routerLink]="['/products', 'solar-system']" href="#">Wiring Accessories</a></li>
                                 </ul>
                               </div>
                             </div>
@@ -159,53 +162,65 @@
                               </ul>
                             </div>
                           </div>
-                          <div class="col-md-9 nav-items">
-                            <div class="col-md-3 nav-col">
+                          <div class="col-md-9 nav-items solutions">
+                            <div class="col-md-4 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
-                                  Power
+                                  <a [routerLink]="['/services', 'data-center-solution']" href="#">Power Solution</a>
                                 </div>
-                                <ul>
-                                  <li><a [routerLink]="['/services', 'data-center-solution']" href="#">Electrical Solutions</a></li>
-                                  <li><a [routerLink]="['/services', 'data-center-solution']" href="#">Remote Monitoring</a></li>
-                                  <li><a [routerLink]="['/services', 'data-center-solution']" href="#">Remote Interfacing</a></li>
-                                  <li><a [routerLink]="['/services', 'data-center-solution']" href="#">Automation</a></li>
-                                  <li><a [routerLink]="['/services', 'data-center-solution']" href="#">Power Management</a></li>
-                                  <li><a [routerLink]="['/services', 'data-center-solution']" href="#">Building Management (BMS)</a></li>
-                                </ul>
+                                <p>
+                                  Descrbe Power solutions
+                                </p>
+                                <p><a class="read-more" [routerLink]="['/services', 'data-center-solution']" href="#">More</a></p>
+                              </div>
+                              <div class="nav-item">
+                                <div class="nav-item-head">
+                                  <a [routerLink]="['/services', 'data-center-solution']" href="#">Surge and Lightning Protection System</a>
+                                </div>
+                                <p>
+                                  Descrbe Power solutions
+                                </p>
+                                <p><a class="read-more" [routerLink]="['/services', 'data-center-solution']" href="#">More</a></p>
                               </div>
                             </div>
-                            <div class="col-md-3 nav-col">
+                            <div class="col-md-4 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
-                                  HVAC
+                                  <a [routerLink]="['/services', 'data-center-solution']" href="#">Clean Room Solution</a>
                                 </div>
-                                <ul>
-                                  <li><a [routerLink]="['/services', 'substation-repairing-maintenance']" href="#">Substation</a></li>
-                                </ul>
+                                <p>
+                                  Descrbe HVAC Solutions
+                                </p>
+                                <p><a class="read-more" [routerLink]="['/services', 'data-center-solution']" href="#">More</a></p>
+                              </div>
+                              <div class="nav-item">
+                                <div class="nav-item-head">
+                                  <a [routerLink]="['/services', 'data-center-solution']" href="#">Data Center Solution</a>
+                                </div>
+                                <p>
+                                  Descrbe HVAC Solutions
+                                </p>
+                                <p><a class="read-more" [routerLink]="['/services', 'data-center-solution']" href="#">More</a></p>
                               </div>
                             </div>
-
-                            <div class="col-md-3 nav-col">
+                            <div class="col-md-4 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
-                                  Data Center
+                                  <a [routerLink]="['/services', 'data-center-solution']" href="#">HVAC Solution</a>
                                 </div>
-                                <ul>
-                                  <li><a [routerLink]="['/services', 'data-center-solution']" href="#">Tharmal Solutions</a></li>
-                                  <li><a [routerLink]="['/services', 'data-center-solution']" href="#">Electrical Solutions</a></li>
-                                  <li><a [routerLink]="['/services', 'data-center-solution']" href="#">Electrical Solutions</a></li>
-                                </ul>
+                                <p>
+                                  Descrbe Power solutions
+                                </p>
+                                <p><a class="read-more" [routerLink]="['/services', 'data-center-solution']" href="#">More</a></p>
                               </div>
-                            </div>
-                            <div class="col-md-3 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
-                                  Fire, Safety &amp; Security
+                                  <a [routerLink]="['/services', 'data-center-solution']" href="#">Fire, Safety &amp; Security</a>
                                 </div>
-                                <ul>
-                                  <li><a [routerLink]="['/services', 'site-testing-and-commissioning']" href="#">tes</a></li>
-                                </ul>
+                                <p>
+                                  Descrbe Power solutions
+                                </p>
+                                <p><a class="read-more" [routerLink]="['/services', 'data-center-solution']" href="#">More</a></p>
                               </div>
                             </div>
                           </div>
@@ -254,33 +269,53 @@
                             </div>
                           </div>
                           <div class="col-md-9 nav-items">
-                            <div class="col-md-5 nav-col">
+                            <div class="col-md-3 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
-                                  Electrical Service Solutions
+                                  General Services
                                 </div>
                                 <ul>
-                                  <li><a [routerLink]="['/services', 'engineering-procurement-and-construction-epc']" href="#">Engineering, Procurement, and Construction (EPC)</a></li>
+                                  <li><a [routerLink]="['/services', 'engineering-procurement-and-construction-epc']" href="#">Engineering, Procurement, &amp; Construction</a></li>
                                   <li><a [routerLink]="['/services', 'engineering-and-consultancy']" href="#">Engineering and Consultancy</a></li>
                                   <li><a [routerLink]="['/services', 'turnkey-services']" href="#">Turnkey Services</a></li>
                                   <li><a [routerLink]="['/services', 'emergency-service']" href="#">Emergency Service</a></li>
                                   <li><a [routerLink]="['/services', 'project-management']" href="#">Project Management</a></li>
-                                  <li><a [routerLink]="['/services', 'network-design']" href="#">Network Design</a></li>
+                                  <li><a [routerLink]="['/services', 'network-design']" href="#">Anual Maintenance Contract</a></li>
                                   <li><a [routerLink]="['/services', 'health-and-safety']" href="#">Health and Safety</a></li>
                                 </ul>
                               </div>
                             </div>
-                            <div class="col-md-4 nav-col">
+                            <div class="col-md-3 nav-col">
+                              <div class="nav-item">
+                                <div class="nav-item-head">
+                                  Optimization
+                                </div>
+                                <ul>
+                                  <li><a [routerLink]="['/services', 'discrimination-studies']" href="#">Discrimination Studies</a></li>
+                                  <li><a [routerLink]="['/services', 'power-quality-analysis']" href="#">Power Quality Analysis</a></li>
+                                  <li><a [routerLink]="['/services', 'thermal-imaging-surveys']" href="#">Thermal Imaging Surveys</a></li>
+                                  <li><a [routerLink]="['/services', 'switchgear-modification']" href="#">Switchgear Modification</a></li>
+                                  <li><a [routerLink]="['/services', 'power-quality-analysis']" href="#">Equipment Upgrades &amp; Replacement</a></li>
+                                  <li><a [routerLink]="['/services', 'switchgear-modification']" href="#">Grounding Quality Analysis</a></li>
+                                  <li><a [routerLink]="['/services', 'site-testing-and-commissioning']" href="#">Site Testing and Commissioning</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-md-3 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
                                   Installation
                                 </div>
                                 <ul>
-                                  <li><a [routerLink]="['/services', 'sub-station-installation']" href="#">Sub-station Installation</a></li>
+                                  <li><a [routerLink]="['/services', 'sub-station-installation']" href="#">Substation Installation</a></li>
                                   <li><a [routerLink]="['/services', 'generator-installation']" href="#">Generator Installation</a></li>
                                   <li><a [routerLink]="['/services', 'power-plant-installation-and-erection']" href="#">Power Plant Installation and Erection</a></li>
+                                  <li><a [routerLink]="['/services', 'generator-hire-and-connection']" href="#">Generator Hire and Connection</a></li>
+                                  <li><a [routerLink]="['/services', 'generator-hire-and-connection']" href="#">HVAC Systemm</a></li>
                                 </ul>
                               </div>
+                            </div>
+                            <div class="col-md-3 nav-col">
                               <div class="nav-item">
                                 <div class="nav-item-head">
                                   Maintenance
@@ -291,22 +326,6 @@
                                   <li><a [routerLink]="['/services', 'switchgear-repairing-maintenance']" href="#">Switchgear</a></li>
                                   <li><a [routerLink]="['/services', 'generator-repeating-maintenance']" href="#">Generator</a></li>
                                   <li><a [routerLink]="['/services', 'industrial-wiring']" href="#">Industrial Wiring</a></li>
-                                </ul>
-                              </div>
-                            </div>
-                            <div class="col-md-3 nav-col">
-                              <div class="nav-item">
-                                <div class="nav-item-head">
-                                  More Services
-                                </div>
-                                <ul>
-                                  <li><a [routerLink]="['/services', 'site-testing-and-commissioning']" href="#">Site Testing and Commissioning</a></li>
-                                  <li><a [routerLink]="['/services', 'discrimination-studies']" href="#">Discrimination Studies</a></li>
-                                  <li><a [routerLink]="['/services', 'power-quality-analysis']" href="#">Power Quality Analysis</a></li>
-                                  <li><a [routerLink]="['/services', 'generator-hire-and-connection']" href="#">Generator Hire and Connection</a></li>
-                                  <li><a [routerLink]="['/services', 'switchgear-modification']" href="#">Switchgear Modification</a></li>
-                                  <li><a [routerLink]="['/services', 'power-quality-analysis']" href="#">Power Quality Analysis</a></li>
-                                  <li><a [routerLink]="['/services', 'thermal-imaging-surveys']" href="#">Thermal Imaging Surveys</a></li>
                                 </ul>
                               </div>
                             </div>
@@ -342,11 +361,10 @@
                                   Downloads
                                 </div>
                                 <ul>
-                                  <li><a [routerLink]="['/services', 'engineering-procurement-and-construction-epc']" href="#">Technical Data Sheet</a></li>
-                                  <li><a [routerLink]="['/services', 'engineering-procurement-and-construction-epc']" href="#">Product Catalog</a></li>
-                                  <li><a [routerLink]="['/services', 'engineering-procurement-and-construction-epc']" href="#">Drawings</a></li>
-                                  <li><a [routerLink]="['/services', 'engineering-procurement-and-construction-epc']" href="#">Technical Specifications</a></li>
                                   <li><a [routerLink]="['/services', 'engineering-procurement-and-construction-epc']" href="#">Brochure</a></li>
+                                  <li><a [routerLink]="['/services', 'engineering-procurement-and-construction-epc']" href="#">Product Catalog</a></li>
+                                  <li><a [routerLink]="['/services', 'engineering-procurement-and-construction-epc']" href="#">Technical Specifications</a></li>
+                                  <li><a [routerLink]="['/services', 'engineering-procurement-and-construction-epc']" href="#">Drawings</a></li>
                                   <li><a [routerLink]="['/services', 'engineering-procurement-and-construction-epc']" href="#">Sample Code</a></li>
                                 </ul>
                               </div>
@@ -358,13 +376,11 @@
                                 </div>
                                 <ul>
                                   <li><a [routerLink]="['/services', 'sub-station-installation']" href="#">Certifications</a></li>
-                                  <li><a [routerLink]="['/services', 'sub-station-installation']" href="#">Industries</a></li>
                                   <li><a [routerLink]="['/services', 'sub-station-installation']" href="#">Products</a></li>
                                   <li><a [routerLink]="['/services', 'sub-station-installation']" href="#">Solutions</a></li>
                                   <li><a [routerLink]="['/services', 'sub-station-installation']" href="#">Services</a></li>
                                 </ul>
                               </div>
-
                             </div>
                             <div class="col-md-3 nav-col">
                               <div class="nav-item">
@@ -386,6 +402,8 @@
                                 </div>
                                 <ul>
                                   <li><a [routerLink]="['/services', 'substation-repairing-maintenance']" href="#">Product Registration</a></li>
+                                  <li><a [routerLink]="['/services', 'substation-repairing-maintenance']" href="#">Warrenty Information</a></li>
+                                  <li><a [routerLink]="['/services', 'substation-repairing-maintenance']" href="#">Training</a></li>
                                 </ul>
                               </div>
                             </div>
@@ -412,7 +430,7 @@
 
 
                 </ul>
-              </div> -->
+              </div>
             </div>
           </div>
         </div>
@@ -438,12 +456,11 @@
             <li><a [routerLink]="['quality']">Quality</a></li>
             <li><a [routerLink]="['clients']">Clients</a></li>
             <!-- <li><a [routerLink]="['manufacturing-process']">Manufacturing Process</a></li> -->
-            <!--<li><a [routerLink]="['faq']">FAQ</a></li>
+            <li><a [routerLink]="['faq']">FAQ</a></li>
             <li><a [routerLink]="['products-home']">Products</a></li>
             <li><a [routerLink]="['solutions-home']">Solutions</a></li>
             <li><a [routerLink]="['services-home']">Services</a></li>
             <li><a [routerLink]="['support-home']">Support</a></li>
-            -->
           </ul>
         </div>
         <div class="col-md-3">
@@ -481,14 +498,11 @@
         <div class="col-md-6">
           &copy; 2017 Techsol Engineering Limited, All Rights Reserved.
         </div>
-        <!--
         <div class="col-md-6" style="text-align:right">
-
           <a [routerLink]="['terms-of-use']">Terms of use</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a [routerLink]="['privacy-policy']">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a [routerLink]="['sitemap']">Sitemap</a>
         </div>
-      -->
       </div>
     </div>
   </div>
