@@ -265,9 +265,9 @@ header .header-container{
             padding: 3px 10px;
             display: inline-block;
             width: 100%;
-/*            pointer-events: none;
+            pointer-events: none;
             cursor: default;
-*/            
+            
           }
           a:hover{
             background-color: #282828;
@@ -434,9 +434,8 @@ header{
     .nav-item-head{
       a{
         text-transform: none;
-/*        pointer-events: none;
-        cursor: default;
-*/        
+        pointer-events: none;
+        cursor: default;        
       }
     }
   }

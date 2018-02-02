@@ -8,9 +8,11 @@
             <a [routerLink]="['/']">
               <div class="logo pull-left"></div>
             </a>
+            <!--
             <div class="search-container pull-left">
               <input type="text" class="search-box" placeholder="Search" /><button type="button" class="search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
             </div>
+          -->
             <div class="desktop-nav pull-right">
               <div class="nav-top">
                 <ul>
@@ -31,7 +33,7 @@
 
 
 
-                  <li class="nav-link" [class.show-nav]="productsMouseOvered" (mouseover)="productsMouseOvered=true; servicesMouseOvered=false; solutionsMouseOvered=false; supportMouseOvered=false; "><a href="#" [routerLink]="['products-home']" class="nav-link">Products <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                  <li class="nav-link" [class.show-nav]="productsMouseOvered" (mouseover)="productsMouseOvered=true; servicesMouseOvered=false; solutionsMouseOvered=false; supportMouseOvered=false; "><a href="#"  class="nav-link">Products <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                     <div class="nav-details-container" (mouseleave)="productsMouseOvered=false; servicesMouseOvered=false">
                       <div class="container">
                         <div class="row">
@@ -152,7 +154,7 @@
 
 
 
-                  <li class="nav-link" [class.show-nav]="solutionsMouseOvered" (mouseover)="supportMouseOvered=false; servicesMouseOvered=false; productsMouseOvered=false; solutionsMouseOvered=true;"><a href="#" [routerLink]="['support-home']" class="nav-link">Solutions <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                  <li class="nav-link" [class.show-nav]="solutionsMouseOvered" (mouseover)="supportMouseOvered=false; servicesMouseOvered=false; productsMouseOvered=false; solutionsMouseOvered=true;"><a href="#"  class="nav-link">Solutions <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                     <div class="nav-details-container" (mouseleave)="productsMouseOvered=false; servicesMouseOvered=false; supportMouseOvered=false; solutionsMouseOvered=false;">
                       <div class="container">
                         <div class="row">
@@ -259,7 +261,7 @@
 
 
 
-                  <li class="nav-link" [class.show-nav]="servicesMouseOvered" (mouseover)="servicesMouseOvered=true; productsMouseOvered=false; solutionsMouseOvered=false; supportMouseOvered=false;"><a href="#" [routerLink]="['services-home']" class="nav-link">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                  <li class="nav-link" [class.show-nav]="servicesMouseOvered" (mouseover)="servicesMouseOvered=true; productsMouseOvered=false; solutionsMouseOvered=false; supportMouseOvered=false;"><a href="#"  class="nav-link">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                     <div class="nav-details-container" (mouseleave)="productsMouseOvered=false; servicesMouseOvered=false">
                       <div class="container">
                         <div class="row">
@@ -343,7 +345,7 @@
 
 
 
-
+<!--
 
                   <li class="nav-link" [class.show-nav]="supportMouseOvered" (mouseover)="supportMouseOvered=true; servicesMouseOvered=false; productsMouseOvered=false; solutionsMouseOvered=false;"><a href="#" [routerLink]="['support-home']" class="nav-link">Support <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                     <div class="nav-details-container" (mouseleave)="productsMouseOvered=false; servicesMouseOvered=false; supportMouseOvered=false; solutionsMouseOvered=false;">
@@ -421,7 +423,7 @@
 
 
 
-
+                -->
 
 
 
@@ -462,11 +464,13 @@
             <li><a [routerLink]="['quality']">Quality</a></li>
             <li><a [routerLink]="['clients']">Clients</a></li>
             <!-- <li><a [routerLink]="['manufacturing-process']">Manufacturing Process</a></li> -->
+            <!--
             <li><a [routerLink]="['faq']">FAQ</a></li>
             <li><a [routerLink]="['products-home']">Products</a></li>
             <li><a [routerLink]="['solutions-home']">Solutions</a></li>
             <li><a [routerLink]="['services-home']">Services</a></li>
             <li><a [routerLink]="['support-home']">Support</a></li>
+            -->
           </ul>
         </div>
         <div class="col-md-3">
@@ -504,11 +508,13 @@
         <div class="col-md-6">
           &copy; 2018 Techsol Engineering Limited, All Rights Reserved.
         </div>
+        <!--
         <div class="col-md-6" style="text-align:right">
           <a [routerLink]="['terms-of-use']">Terms of use</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a [routerLink]="['privacy-policy']">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a [routerLink]="['sitemap']">Sitemap</a>
         </div>
+      -->
       </div>
     </div>
   </div>
