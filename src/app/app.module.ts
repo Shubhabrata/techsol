@@ -1,6 +1,6 @@
 import { NgModule, ApplicationRef, enableProdMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular//common/http';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
@@ -26,23 +26,25 @@ import { SolutionsHomeComponent } from './solutions-home/solutions-home.componen
 import { SupportHomeComponent } from './support-home/support-home.component';
 import { SolutionsComponent } from './solutions/solutions.component';
 
+import * as $ from 'jquery';
+
 import { ApiService } from './shared';
-import { routing } from './app.routing';
+import { Routing } from './app.routing';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'lightbox2/dist/css/lightbox.min.css';
 
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+// import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
 
 enableProdMode();
 
 @NgModule({
   imports: [
     BrowserModule,
-    HttpModule,
+    HttpClientModule,
     FormsModule,
-    routing,
-    NgbModule.forRoot()
+    Routing,
+    NgbModule
   ],
   declarations: [
     AppComponent,
@@ -74,8 +76,8 @@ enableProdMode();
   bootstrap: [AppComponent]
 })
 export class AppModule {
-  constructor(public appRef: ApplicationRef) {}
-
+  constructor(public appRef: ApplicationRef) { }
+/*
   hmrOnInit(store) {
     console.log('HMR store', store);
   }
@@ -91,4 +93,5 @@ export class AppModule {
     store.disposeOldHosts();
     delete store.disposeOldHosts;
   }
+  */
 }

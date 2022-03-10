@@ -47,4 +47,4 @@ const routes: Routes = [
   { path: 'support-home', component: SupportHomeComponent},
 ];
 
-export const routing = RouterModule.forRoot(routes);
+export const Routing = RouterModule.forRoot(routes);

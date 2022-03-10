@@ -4,6 +4,7 @@ node_modules/
 .tmp
 .idea
 .DS_Store
+.angular
 bower_components/
 dist
 .sass-cache
